@@ -1,0 +1,127 @@
+body {
+  font-family: "gotham_rnd_ssmbook";
+  color: #505052;
+}
+
+.header {
+  background:url('../img/bg-header.png') repeat-x;
+}
+.logo {
+  display: block;
+  height: 30px;
+  padding: 25px 0;
+}
+.links {
+  float: right;
+  line-height: 80px;
+  margin: 0;
+}
+.links li {
+  float: left;
+  list-style: none;
+  margin-left: 30px;
+}
+.links a {
+  color: #505052;
+  font-family: "gotham_rnd_ssmmedium";
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.header-trans .links a{
+  color: #fff;
+}
+
+#advertisers {
+  padding: 80px 0 40px;
+  background: url('../img/bg-scatter.png');
+}
+.brief p,
+.brief-text {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+#about {
+  background: #ffe327;
+  padding: 96px 0 90px;
+}
+
+.article {
+  background: #333;
+  border-radius: 6px;
+  position: relative;
+  height: 404px;
+}
+.article-sm {
+  height: 268px;
+}
+.article h3 {
+  font-family: "gotham_rnd_ssmbold";
+  font-weight: normal;
+  font-size: 28px;
+  bottom: 10px;
+  color: #fff;
+  text-shadow: 1px 1px 0 #000;
+  position: absolute;
+  margin: 0;
+  padding: 0 30px;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.article-sm h3 {
+  font-size: 24px;
+}
+
+.hero {
+  background:#444;
+  color: #fff;
+}
+.hero-content {
+  padding: 190px 0;
+}
+
+#footer {
+  background-color: #414143;
+}
+
+/*= headers */
+.hd-1 {
+  color: #fff;
+  font-family: "gotham_rnd_ssmbold";
+  text-transform: uppercase;
+  font-size: 36px;
+  margin: 0;
+}
+.hd-2 {
+  font-family: "gotham_rnd_ssmbold";
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.hd-3 {
+  font-family: "gotham_rnd_ssmbold";
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.summary {
+  color: #fff;
+  font-size: 20px;
+  font-family: "gotham_rnd_ssmmedium";
+  margin-top: 0;
+}
+
+.feature {
+  padding: 56px 0;
+}
+.feature-gray {
+  background-color: #f5f5f5;
+}
+
+
+/* helper classes */
+.mb {
+  margin-bottom: 28px;
+}
+.tac {
+  text-align: center;
+}
