@@ -6,6 +6,10 @@ p {
   line-height: 1.6;
 }
 
+.section {
+  padding: 30px 0 56px;
+}
+
 .header {
   background:url('../img/bg-header.png') repeat-x;
 }
@@ -34,8 +38,8 @@ p {
   color: #fff;
 }
 
-#advertisers {
-  padding: 80px 0 40px;
+#advertisers,
+.scatter {
   background: url('../img/bg-scatter.png');
 }
 .brief p {
@@ -161,7 +165,58 @@ p {
 .btn-secondary {
   background-color: #6d26f2;
 }
-.btn-tertiary {
+.btn-tertiary,
+.btn-tertiary:hover {
   background-color: #ffe327;
   color: #505154;
+}
+.btn-block {
+  width: 100%;
+}
+
+.circle {
+  color: #fff;
+  width: 400px;
+  height: 400px;
+  padding-top: 50px;
+  background: #b342ba;
+  border-radius: 50%;
+  margin: 0 auto 40px;
+}
+.circle-secondary {
+  background-color: #6d26f2;
+}
+
+.scatter-links {
+  margin-top: 60px;
+  position: relative;
+}
+.scatter-link {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+}
+.scatter-link-facebook {
+  left: 235px;
+  top: 0;
+}
+.scatter-link-twitter {
+  left: 95px;
+  top: 80px;
+}
+.scatter-link-linkedin {
+  top: 80px;
+  left: 375px;
+}
+.scatter-link-pinterest {
+  left: 95px;
+  top: 242px;
+}
+.scatter-link-googleplus {
+  left: 375px;
+  top: 242px;
+}
+.scatter-link-slideshare {
+  left: 235px;
+  top: 325px;
 }
