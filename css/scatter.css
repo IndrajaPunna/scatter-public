@@ -96,6 +96,12 @@ p {
 .hero__knowledge {
   background: url('../img/hero-knowledge.jpg');
 }
+.hero__advertisers {
+  background: url('../img/hero-advertisers.jpg');
+}
+.hero__publishers {
+  background: url('../img/hero-publishers.jpg');
+}
 
 #interact {
   background: #000 url('../img/bg-footer.jpg');
@@ -139,6 +145,13 @@ p {
 .feature-gray {
   background-color: #f5f5f5;
 }
+.feature-content {
+  width: 75%;
+}
+.feature-alt .feature-content {
+  text-align: right;
+  float: right;
+}
 
 
 /* helper classes */
@@ -147,6 +160,10 @@ p {
 }
 .tac {
   text-align: center;
+}
+.breathe {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 /*= buttons */
@@ -174,6 +191,9 @@ p {
 .btn-tertiary:hover {
   background-color: #ffe327;
   color: #505154;
+}
+.btn-action {
+  background-color: #d2395a;
 }
 .btn-block {
   width: 100%;
