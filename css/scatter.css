@@ -259,3 +259,9 @@ p {
 .footer-links a {
   padding: 0 16px;
 }
+
+.skip {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
