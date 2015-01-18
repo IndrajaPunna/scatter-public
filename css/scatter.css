@@ -89,7 +89,7 @@ p {
   color: #fff;
 }
 .hero-content {
-  padding: 190px 0;
+  padding: 190px 0 100px;
 }
 .hero__homepage {
   background: url('../img/hero-homepage.jpg');
@@ -265,6 +265,6 @@ p {
 
 .skip {
   position: absolute;
-  bottom: 10px;
+  bottom: 30px;
   width: 100%;
 }
