@@ -245,3 +245,10 @@ p {
   left: 235px;
   top: 325px;
 }
+
+.is-sticky {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99999;
+}
