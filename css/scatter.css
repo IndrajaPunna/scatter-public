@@ -246,3 +246,16 @@ p {
   left: 235px;
   top: 325px;
 }
+
+.footer-links {
+  padding: 10px 0;
+}
+.footer-links p,
+.footer-links a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.footer-links a {
+  padding: 0 16px;
+}
