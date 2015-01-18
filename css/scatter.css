@@ -43,6 +43,9 @@ p {
 .scatter {
   background: url('../img/bg-scatter.png');
 }
+.brief-big {
+  padding: 30px 100px;
+}
 .brief p {
   padding: 0 60px;
   font-size: 12px;
@@ -102,6 +105,14 @@ p {
 }
 .hero__publishers {
   background: url('../img/hero-publishers.jpg');
+}
+
+#publishers {
+  background:#000  url('../img/bg-publishers.jpg');
+  color: #fff;
+}
+#publishers .container {
+  background: url('../img/scatter-logo.png') center no-repeat;
 }
 
 #interact {
