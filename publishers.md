@@ -9,13 +9,13 @@ permalink: /publishers/
       {% include links.html param="light" %}
     </div>
     <div class="hero-content tac">
-      <img src="/img/i-increase.png" alt="">
+      <img src="{{ site.baseurl }}/img/i-increase.png" alt="">
       <h1 class="hd-1">More Visibility. More Traffic. More Revenue.</h1>
       <p class="summary">Scatter takes your best feature content and gives it the attention it deserves.</p>
     </div>
   </div>
   <div class="skip tac">
-    <a href="#content"><img src="/img/i-arrow.png" alt=""></a>
+    <a href="#content"><img src="{{ site.baseurl }}/img/i-arrow.png" alt=""></a>
   </div>
 </div>
 <!-- /hero -->
@@ -28,22 +28,22 @@ permalink: /publishers/
     <div class="row tac breathe">
       <div class="col-md-4">
         <h3 class="hd-3">New Revenue Streams</h3>
-        <img src="/img/i-revenue.png" alt="">
+        <img src="{{ site.baseurl }}/img/i-revenue.png" alt="">
         <p class="brief-text">By making your existing content available for purchase, and by boosting traffic, Scatter opens up new options for monetization</p>
       </div>
       <div class="col-md-4">
         <h3 class="hd-3">Increased Traffic</h3>
-        <img src="/img/i-traffic.png" alt="">
+        <img src="{{ site.baseurl }}/img/i-traffic.png" alt="">
         <p class="brief-text">By placing your resurfaced content into high-engagement contexts, Scatter gets your existing content working to boost your overall presence</p>
       </div>
       <div class="col-md-4">
         <h3 class="hd-3">Improved Social Quotient</h3>
-        <img src="/img/i-socialquotient.png" alt="">
+        <img src="{{ site.baseurl }}/img/i-socialquotient.png" alt="">
         <p class="brief-text">By delivering your content straight to discussion points on social media, Scatter allows you to grow your following with no effort at all</p>
       </div>
     </div>
     <div class="tac">
-      <p><a href="/files/scatter-publisher-faqs.pdf" class="btn btn-action">Want to know more? <b>Download our FAQ</b></a></p>
+      <p><a href="{{ site.baseurl }}/files/scatter-publisher-faqs.pdf" class="btn btn-action">Want to know more? <b>Download our FAQ</b></a></p>
       <p>PDF Format - 213KB</p>
     </div>
   </div>
