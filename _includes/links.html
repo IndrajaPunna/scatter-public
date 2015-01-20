@@ -5,9 +5,9 @@
 </div>
 <div class="col-md-8">
   <ul class="links">
-    <li><a href="{{ site.baseurl }}/advertisers">advertisers</a></li>
-    <li><a href="{{ site.baseurl }}/publishers">publishers</a></li>
-    <li><a href="{{ site.baseurl }}/knowledge">knowledge</a></li>
+    <li><a {% if page.url == '/advertisers/' %} class="active" {% endif %} href="{{ site.baseurl }}/advertisers">advertisers</a></li>
+    <li><a {% if page.url == '/publishers/' %} class="active" {% endif %}href="{{ site.baseurl }}/publishers">publishers</a></li>
+    <li><a {% if page.url == '/knowledge/' %} class="active" {% endif %}href="{{ site.baseurl }}/knowledge">knowledge</a></li>
     <li><a href="#interact">contact</a></li>
   </ul>
 </div>

@@ -24,76 +24,16 @@ permalink: /knowledge/
 
 <div id="knowledge" class="mt">
   <div class="container">
-    <div class="row mb">
-      <div class="col-md-6">
-        <a href="{{ site.baseurl }}/knowledge/7-types-of-social-media-followers.html">
-          <div class="article tac" style="background-image:url('{{ site.baseurl }}/img/articles/7-types-of-social-media-followers.jpg');">
-            <h3>7 types of social media followers</h3>
+    <div class="row">
+      {% for post in site.posts %}
+      <div class="col-md-4 mb">
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <div class="article article-sm tac" style="background-image:url('{{ site.baseurl }}/img/articles/{{post.image}}')">
+            <h3>{{ post.title }}</h3>
           </div>
         </a>
       </div>
-      <div class="col-md-6">
-        <a href="{{ site.baseurl }}/knowledge/consumers-marketers-and-content.html">
-          <div class="article tac" style="background-image:url('{{ site.baseurl }}/img/articles/consumers-marketers-and-content.jpg');">
-            <h3>consumers, marketers and content</h3>
-          </div>
-        </a>
-      </div>
-    </div>
-    <div class="row mb">
-      <div class="col-md-4">
-        <a href="{{ site.baseurl }}/knowledge/top-15-content-marketing-trends-2015.html">
-          <div class="article article-sm tac" style="background-image:url('{{ site.baseurl }}/img/articles/top-15-content-marketing-trends-2015.jpg');">
-            <h3>top 15 content marketing trends 2015</h3>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a href="{{ site.baseurl }}/knowledge/editorial-calendar.html">
-          <div class="article article-sm tac" style="background-image:url('{{ site.baseurl }}/img/articles/editorial-calendar.jpg');">
-            <h3>How to make an effective editorial calendar</h3>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a href="{{ site.baseurl }}/knowledge/how-to-create-a-niche-for-your-brand.html">
-          <div class="article article-sm tac" style="background-image:url('{{ site.baseurl }}/img/articles/how-to-create-a-niche-for-your-brand.jpg');">
-            <h3>how to create a niche for your brand</h3>
-          </div>
-        </a>
-      </div>
-    </div>
-    <div class="row mb">
-      <div class="col-md-6">
-        <a href="{{ site.baseurl }}/knowledge/how-to-engage-with-influencers.html">
-          <div class="article tac" style="background-image:url('{{ site.baseurl }}/img/articles/how-to-engage-with-influencers.jpg');">
-            <h3>how to engage with influencers</h3>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-6">
-        <a href="{{ site.baseurl }}/knowledge/how-to-humanize-your-brand.html">
-          <div class="article tac" style="background-image:url('{{ site.baseurl }}/img/articles/how-to-humanize-your-brand.jpg');">
-            <h3>how to humanize your brand</h3>
-          </div>
-        </a>
-      </div>
-    </div>
-    <div class="row mb">
-      <div class="col-md-4">
-        <a href="article/how-to-understand-your-core-audience.html">
-          <div class="article article-sm tac" style="background-image:url('{{ site.baseurl }}/img/articles/how-to-understand-your-core-audience.jpg');">
-            <h3>how to understand your core audience</h3>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a href="{{ site.baseurl }}/knowledge/measuring-roi.html">
-          <div class="article article-sm tac" style="background-image:url('{{ site.baseurl }}/img/articles/measuring-roi.jpg');">
-            <h3>measuring roi</h3>
-          </div>
-        </a>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </div>

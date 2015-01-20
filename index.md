@@ -10,7 +10,6 @@ permalink: /
       {% include links.html param="light" %}
     </div>
     <div class="hero-content tac">
-      <img src="{{ site.baseurl }}/img/scatter-logo.png" alt="">
       <h1 class="hd-1">Content Is Conversation</h1>
       <p class="summary">Scatter makes sure you never run out of things to say.</p>
       <a href="#interact" class="btn btn-secondary">request a demo</a>
@@ -110,27 +109,15 @@ permalink: /
   <p class="mb">Our knowledge and resource center keeps you up-to-date and informed with the world of content marketing.</p>
   <div class="container">
     <div class="row mb">
-      <div class="col-md-4">
-        <a href="/knowledge/top-15-content-marketing-trends-2015">
-          <div class="article article-sm tac" style="background-image:url('{{ site.baseurl }}/img/articles/top-15-content-marketing-trends-2015.jpg');">
-            <h3>top 15 content marketing trends 2015</h3>
+      {% for post in site.tags.feature%}
+      <div class="col-md-4 mb">
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <div class="article article-sm tac" style="background-image:url('{{ site.baseurl }}/img/articles/{{post.image}}')">
+            <h3>{{ post.title }}</h3>
           </div>
         </a>
       </div>
-      <div class="col-md-4">
-        <a href="{{ site.baseurl }}{% post_url 2014-01-20-consumers-marketers-and-content %}">
-          <div class="article article-sm tac" style="background-image:url('{{ site.baseurl }}/img/articles/consumers-marketers-and-content.jpg');">
-            <h3>consumers, marketers and content</h3>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a href="/knowledge/editorial-calendar">
-          <div class="article article-sm tac" style="background-image:url('{{ site.baseurl }}/img/articles/editorial-calendar.jpg');">
-            <h3>How to make an effective editorial calendar</h3>
-          </div>
-        </a>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </div>
