@@ -15,21 +15,21 @@ permalink: /advertisers/
     </div>
     <div class="row">
       <div class="col-md-4 tac">
-        <img src="/img/i-context.png" alt="">
+        <img src="{{ site.baseurl }}/img/i-context.png" alt="">
         <h3 class="hd-3">create context</h3>
       </div>
       <div class="col-md-4 tac">
-        <img src="/img/i-relationships.png" alt="">
+        <img src="{{ site.baseurl }}/img/i-relationships.png" alt="">
         <h3 class="hd-3">Build Meaningful Relationships</h3>
       </div>
       <div class="col-md-4 tac">
-        <img src="/img/i-insights.png" alt="">
+        <img src="{{ site.baseurl }}/img/i-insights.png" alt="">
         <h3 class="hd-3">Gain User Insights</h3>
       </div>
     </div>
   </div>
   <div class="skip tac">
-    <a href="#content"><img src="/img/i-arrow.png" alt=""></a>
+    <a href="#content"><img src="{{ site.baseurl }}/img/i-arrow.png" alt=""></a>
   </div>
 </div>
 <!-- /hero -->
@@ -43,34 +43,34 @@ permalink: /advertisers/
       <div class="col-md-3">
         <div class="tac">
           <h3 class="hd-3">unprecedented scale</h3>
-          <img src="/img/i-time.png" alt="">
+          <img src="{{ site.baseurl }}/img/i-time.png" alt="">
           <p class="brief-text">Scatter allows you to acquire large amounts of content in short periods of time</p>
         </div>
       </div>
       <div class="col-md-3">
         <div class="tac">
           <h3 class="hd-3">Legal sourcing</h3>
-          <img src="/img/i-legal.png" alt="">
+          <img src="{{ site.baseurl }}/img/i-legal.png" alt="">
           <p class="brief-text">Scatter's publisher network gives you a steady stream of 100% legal content</p>
         </div>
       </div>
       <div class="col-md-3">
         <div class="tac">
           <h3 class="hd-3">Daily Engagement</h3>
-          <img src="/img/i-engagement.png" alt="">
+          <img src="{{ site.baseurl }}/img/i-engagement.png" alt="">
           <p class="brief-text">Use our content planning tool to effectively engage with your audience on a daily basis</p>
         </div>
       </div>
       <div class="col-md-3">
         <div class="tac">
           <h3 class="hd-3">Guaranteed Quality</h3>
-          <img src="/img/i-quality.png" alt="">
+          <img src="{{ site.baseurl }}/img/i-quality.png" alt="">
           <p class="brief-text">Rub shoulders with "best of breed" content through our unique marketplace</p>
         </div>
       </div>
     </div>
     <div class="tac">
-      <p><a href="/files/scatter-advertiser-faqs.pdf" class="btn btn-action">Want to know more? <b>Download our FAQ</b></a></p>
+      <p><a href="{{ site.baseurl }}/files/scatter-advertiser-faqs.pdf" class="btn btn-action">Want to know more? <b>Download our FAQ</b></a></p>
       <p>PDF Format - 247KB</p>
     </div>
   </div>
@@ -81,7 +81,7 @@ permalink: /advertisers/
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <img src="/img/feature-dashboard.jpg" alt="">
+          <img src="{{ site.baseurl }}/img/feature-dashboard.jpg" alt="">
         </div>
         <div class="col-md-8">
           <div class="feature-content">
@@ -102,7 +102,7 @@ permalink: /advertisers/
           </div>
         </div>
         <div class="col-md-4">
-          <img src="/img/feature-calendar.jpg" alt="">
+          <img src="{{ site.baseurl }}/img/feature-calendar.jpg" alt="">
         </div>
       </div>
     </div>
@@ -111,7 +111,7 @@ permalink: /advertisers/
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <img src="/img/feature-searchresult.jpg" alt="">
+          <img src="{{ site.baseurl }}/img/feature-searchresult.jpg" alt="">
         </div>
         <div class="col-md-8">
           <div class="feature-content">

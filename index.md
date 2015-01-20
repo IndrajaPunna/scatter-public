@@ -10,14 +10,14 @@ permalink: /
       {% include links.html param="light" %}
     </div>
     <div class="hero-content tac">
-      <img src="img/scatter-logo.png" alt="">
+      <img src="{{ site.baseurl }}/img/scatter-logo.png" alt="">
       <h1 class="hd-1">Content Is Conversation</h1>
       <p class="summary">Scatter makes sure you never run out of things to say.</p>
       <a href="#interact" class="btn btn-secondary">request a demo</a>
     </div>
   </div>
   <div class="skip tac">
-    <a href="#content"><img src="/img/i-arrow.png" alt=""></a>
+    <a href="#content"><img src="{{ site.baseurl }}/img/i-arrow.png" alt=""></a>
   </div>
 </div>
 <!-- /hero -->
@@ -31,28 +31,28 @@ permalink: /
       <div class="col-md-4 arrow-r">
         <div class="brief tac">
           <h3 class="hd-3">discover</h3>
-          <img src="img/i-discover.png" alt="">
+          <img src="{{ site.baseurl }}/img/i-discover.png" alt="">
           <p>Our intelligent search adapts to your needs, and learns from your patterns, giving you recommended and customised results. Never miss a trend again.</p>
-          <a href="#"><img src="img/i-discover-1.jpg" alt=""></a>
-          <a href="#" class="ml"><img src="img/i-discover-2.jpg" alt=""></a>
+          <a href="#"><img src="{{ site.baseurl }}/img/i-discover-1.jpg" alt=""></a>
+          <a href="#" class="ml"><img src="{{ site.baseurl }}/img/i-discover-2.jpg" alt=""></a>
         </div>
       </div>
       <div class="col-md-4 arrow-r">
         <div class="brief tac">
           <h3 class="hd-3">distribute</h3>
-          <img src="img/i-distribute.png" alt="">
+          <img src="{{ site.baseurl }}/img/i-distribute.png" alt="">
           <p>Use our editorial calendar for easy planning of your content marketing activities. Wrap the content you like with the ads that you want, and let it travel.</p>
-          <a href="#"><img src="img/i-distribute-1.jpg" alt=""></a>
-          <a href="#" class="ml"><img src="img/i-distribute-2.jpg" alt=""></a>
+          <a href="#"><img src="{{ site.baseurl }}/img/i-distribute-1.jpg" alt=""></a>
+          <a href="#" class="ml"><img src="{{ site.baseurl }}/img/i-distribute-2.jpg" alt=""></a>
         </div>
       </div>
       <div class="col-md-4">
         <div class="brief tac">
           <h3 class="hd-3">delight</h3>
-          <img src="img/i-delight.png" alt="">
+          <img src="{{ site.baseurl }}/img/i-delight.png" alt="">
           <p>Our advanced analytics allow you to monitor engagement rates on your selected content. Get everything you need straight from our Scatter dasboard.</p>
-          <a href="#"><img src="img/i-delight-1.jpg" alt=""></a>
-          <a href="#" class="ml"><img src="img/i-delight-2.jpg" alt=""></a>
+          <a href="#"><img src="{{ site.baseurl }}/img/i-delight-1.jpg" alt=""></a>
+          <a href="#" class="ml"><img src="{{ site.baseurl }}/img/i-delight-2.jpg" alt=""></a>
         </div>
       </div>
     </div>
@@ -67,7 +67,7 @@ permalink: /
       <div class="col-md-6">
         <div class="circle arrow-double">
           <h2 class="hd-2">advertisers</h2>
-          <img src="img/i-advertisers.png" alt="">
+          <img src="{{ site.baseurl }}/img/i-advertisers.png" alt="">
           <p class="brief-text">
             A content marketplace that works for <br>
             you. We source content from best <br>
@@ -76,12 +76,12 @@ permalink: /
             your audiences
           </p>
         </div>
-        <p><a href="advertisers.html" class="btn btn-tertiary">learn more about scatter</a></p>
+        <p><a href="{{ site.baseurl }}/advertisers" class="btn btn-tertiary">learn more about scatter</a></p>
       </div>
       <div class="col-md-6">
         <div class="tac circle circle-secondary">
           <h2 class="hd-2">publishers</h2>
-          <img src="img/i-publishers.png" alt="">
+          <img src="{{ site.baseurl }}/img/i-publishers.png" alt="">
           <p class="brief-text">
             Generate site traffic and revenues! <br>
             Scatter brings your feature content <br>
@@ -90,7 +90,7 @@ permalink: /
             your social quotient
           </p>
         </div>
-        <p><a href="publishers.html" class="btn btn-tertiary">join our publisher network</a></p>
+        <p><a href="{{ site.baseurl }}/publishers" class="btn btn-tertiary">join our publisher network</a></p>
       </div>
     </div>
   </div>
@@ -112,21 +112,21 @@ permalink: /
     <div class="row mb">
       <div class="col-md-4">
         <a href="/knowledge/top-15-content-marketing-trends-2015">
-          <div class="article article-sm tac" style="background-image:url('/img/articles/top-15-content-marketing-trends-2015.jpg');">
+          <div class="article article-sm tac" style="background-image:url('{{ site.baseurl }}/img/articles/top-15-content-marketing-trends-2015.jpg');">
             <h3>top 15 content marketing trends 2015</h3>
           </div>
         </a>
       </div>
       <div class="col-md-4">
-        <a href="/knowledge/consumers-marketers-and-content">
-          <div class="article article-sm tac" style="background-image:url('/img/articles/consumers-marketers-and-content.jpg');">
+        <a href="{{ site.baseurl }}{% post_url 2014-01-20-consumers-marketers-and-content %}">
+          <div class="article article-sm tac" style="background-image:url('{{ site.baseurl }}/img/articles/consumers-marketers-and-content.jpg');">
             <h3>consumers, marketers and content</h3>
           </div>
         </a>
       </div>
       <div class="col-md-4">
         <a href="/knowledge/editorial-calendar">
-          <div class="article article-sm tac" style="background-image:url('/img/articles/editorial-calendar.jpg');">
+          <div class="article article-sm tac" style="background-image:url('{{ site.baseurl }}/img/articles/editorial-calendar.jpg');">
             <h3>How to make an effective editorial calendar</h3>
           </div>
         </a>

@@ -330,5 +330,7 @@ p {
   bottom: -92px;
 }
 article p {
-  line-height: 1.8;
+  font-size: 16px;
+  line-height: 2em;
+  margin-bottom: 2.4em;
 }
