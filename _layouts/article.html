@@ -1,0 +1,40 @@
+{% include header.html %}
+
+<!-- hero -->
+<div id="hero" class="hero hero__knowledge">
+  <div class="container">
+    <div class="row header-trans">
+      {% include links.html param="light" %}
+    </div>
+    <div class="hero-content tac">
+      <h1 class="hd-1">{{page.title}}</h1>
+    </div>
+  </div>
+  <div class="skip tac">
+    <a href="#content"><img src="/img/i-arrow.png" alt=""></a>
+  </div>
+</div>
+<!-- /hero -->
+
+{% include nav.html %}
+<div class="container">
+  <div class="mt mb">
+    <a href="/knowledge">&laquo; back to knowledge &amp; resource center</a>
+  </div>
+  <div class="row">
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <article>{{content}}</article>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h3 class="hd-3">best of the web</h3>
+      <h3 class="hd-3">related articles</h3>
+    </div>
+  </div>
+  comments
+</div>
+{% include footer.html %}
