@@ -161,6 +161,9 @@ p {
 .feature {
   padding: 56px 0;
 }
+.feature img {
+  max-width: 100%;
+}
 .section-gray,
 .feature-gray {
   background-color: #f5f5f5;
