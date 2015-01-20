@@ -18,11 +18,11 @@
 
 {% include nav.html %}
 <div class="container">
-  <div class="mt mb">
-    <a href="/knowledge">&laquo; back to knowledge &amp; resource center</a>
+  <div class="backlink">
+    <a href="{{ site.baseurl }}/knowledge">&laquo; back to knowledge &amp; resource center</a>
   </div>
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-8 bt">
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
@@ -31,8 +31,21 @@
       </div>
     </div>
     <div class="col-md-4 tac">
-      <h3 class="hd-3">best of the web</h3>
-      <h3 class="hd-3">related articles</h3>
+      <!--
+      <div class="block mb">
+        <h3 class="hd-3">best of the web</h3>
+      </div> 
+      -->
+      <div class="block">
+        <h3 class="hd-3">related articles</h3>
+        {% for post in site.related_posts limit:5%}
+        <a class="mb" href="{{ site.baseurl }}{{ post.url }}">
+          <div class="article article-xs tac" style="background-image:url('{{ site.baseurl }}/img/articles/{{post.image}}')">
+            <h3>{{ post.title }}</h3>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
     </div>
   </div>
   comments

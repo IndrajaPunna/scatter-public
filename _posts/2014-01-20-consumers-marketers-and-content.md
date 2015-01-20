@@ -1,7 +1,10 @@
 ---
 layout: article
 title: consumers, market & content
+image: consumers-marketers-and-content.jpg
+tags: feature
 ---
+# consumers, market & content
 
 Consumers have binary vision when it comes to 'content' and 'advertisements.' It is either content or an ad. Period! And this is across all mediums and platforms.
 
