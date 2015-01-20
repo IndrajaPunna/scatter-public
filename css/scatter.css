@@ -307,7 +307,7 @@ p {
   width: 36px;
   height: 16px;
   background: url('../img/i-arrow-right.png') no-repeat;
-  right: -32px;
+  right: -24px;
   top: 50%;
 }
 .arrow-double:after {
