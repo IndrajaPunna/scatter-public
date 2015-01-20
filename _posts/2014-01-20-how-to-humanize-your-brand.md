@@ -13,7 +13,7 @@ When you, your customers and your social media followers are all human, why depr
 
 In today's day and age, marked by short attention spans and incessant social media updates, humanizing your brand can give you that much needed edge. It will help you rise above competition, help you break free from clutter and increase your likability quotient. It assumes all the more importance in content marketing, given that your objective is to be seen as an interactive entity rather than a lifeless brand.
 
-**Adding a human touch to your brand**
+### Adding a human touch to your brand
 
 Here are 5 ways in which you can humanize your brand.
 
