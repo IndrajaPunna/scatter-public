@@ -1,28 +1,11 @@
 {% include header.html %}
-
-<!-- hero -->
-<div id="hero" class="hero hero__knowledge">
-  <div class="container">
-    <div class="row header-trans">
-      {% include links.html param="light" %}
-    </div>
-    <div class="hero-content tac">
-      <h1 class="hd-1">{{page.title}}</h1>
-    </div>
-  </div>
-  <div class="skip tac">
-    <a href="#content"><img src="{{ site.baseurl }}/img/i-arrow.png" alt=""></a>
-  </div>
-</div>
-<!-- /hero -->
-
 {% include nav.html %}
 <div class="container">
   <div class="backlink">
     <a href="{{ site.baseurl }}/knowledge">&laquo; back to knowledge &amp; resource center</a>
   </div>
   <div class="row">
-    <div class="col-md-8 bt">
+    <div class="col-md-8 article-wrap">
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
@@ -48,6 +31,6 @@
       </div>
     </div>
   </div>
-  comments
+  <!-- comments -->
 </div>
 {% include footer.html %}

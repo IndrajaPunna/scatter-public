@@ -3,7 +3,9 @@ layout: article
 title: How to engage with influencers
 image: how-to-engage-with-influencers.jpg
 ---
-# Why you must engage with influencers
+# How to engage with influencers
+
+## Why you must engage with influencers
 
 The end objective of every content marketing initiative is to reach the right target audience, interact with them and get them to talk about your product and/or campaign. As a marketer, you do not leave any stone unturned to make sure that these objectives are achieved. Right from meticulously planning your editorial calendar to making sure your content is consumed by the right people in the right way, you do all you can to ensure that your campaign is successful. However, reaching the right audience and engaging with them constructively can sometimes be quite a task. This is where you can take help from influencers.
 

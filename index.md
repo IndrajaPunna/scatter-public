@@ -5,18 +5,27 @@ permalink: /
 
 <!-- hero -->
 <div id="hero" class="hero hero__homepage">
-  <div class="container">
-    <div class="row header-trans">
-      {% include links.html param="light" %}
-    </div>
-    <div class="hero-content tac">
-      <h1 class="hd-1">Content Is Conversation</h1>
-      <p class="summary">Scatter makes sure you never run out of things to say.</p>
-      <a href="#interact" class="btn btn-secondary">request a demo</a>
+  <div class="hero-a">
+    <div class="container">
+      <div class="row header-trans">
+        {% include links.html param="light" %}
+      </div>
+      <div class="hero-content tac">
+        <h1 class="hd-1 mt">Awesome content.</h1>
+      </div>
     </div>
   </div>
-  <div class="skip tac">
-    <a href="#content"><img src="{{ site.baseurl }}/img/i-arrow.png" alt=""></a>
+  <div class="hero-b tac">
+    <h2 class="hd-1">No more awful conversations.</h2>
+    <div class="breathe">
+      <img src="{{ site.baseurl }}/img/hero-scatter-logo.png" alt="">
+    </div>
+    <div>
+      <a href="#interact" class="btn btn-tertiary">request a demo</a>
+    </div>
+    <div class="skip tac">
+      <a href="#content"><img src="{{ site.baseurl }}/img/i-arrow.png" alt=""></a>
+    </div>
   </div>
 </div>
 <!-- /hero -->

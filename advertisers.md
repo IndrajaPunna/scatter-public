@@ -4,14 +4,21 @@ permalink: /advertisers/
 ---
 
 <!-- hero -->
-<div id="hero" class="hero hero__advertisers">
-  <div class="container">
-    <div class="row header-trans">
-      {% include links.html param="light" %}
+<div id="hero" class="hero hero__bg hero__advertisers">
+  <div class="hero-a">
+    <div class="container">
+      <div class="row header-trans">
+        {% include links.html param="light" %}
+      </div>
+      <div class="hero-content tac">
+        <h1 class="hd-1 mt">content scored from the best publishers.</h1>
+      </div>
     </div>
-    <div class="hero-content tac">
-      <h1 class="hd-1">never run out of things to say</h1>
-      <p class="summary">Scatter lets advertisers use high pedigree content to engage their auddience better.</p>
+  </div>
+  <div class="hero-b tac">
+    <h2 class="hd-1">to get your audience hooked.</h2>
+    <div class="breathe">
+      <img src="{{ site.baseurl }}/img/hero-scatter-logo.png" alt="">
     </div>
     <div class="row">
       <div class="col-md-4 tac">
@@ -27,9 +34,9 @@ permalink: /advertisers/
         <h3 class="hd-3">Gain User Insights</h3>
       </div>
     </div>
-  </div>
-  <div class="skip tac">
-    <a href="#content"><img src="{{ site.baseurl }}/img/i-arrow.png" alt=""></a>
+    <div class="skip tac">
+      <a href="#content"><img src="{{ site.baseurl }}/img/i-arrow.png" alt=""></a>
+    </div>
   </div>
 </div>
 <!-- /hero -->

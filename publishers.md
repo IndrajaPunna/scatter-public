@@ -3,19 +3,25 @@ layout: page
 permalink: /publishers/
 ---
 <!-- hero -->
-<div id="hero" class="hero hero__publishers">
-  <div class="container">
-    <div class="row header-trans">
-      {% include links.html param="light" %}
-    </div>
-    <div class="hero-content tac">
-      <img src="{{ site.baseurl }}/img/i-increase.png" alt="">
-      <h1 class="hd-1">More Visibility. More Traffic. More Revenue.</h1>
-      <p class="summary">Scatter takes your best feature content and gives it the attention it deserves.</p>
+<div id="hero" class="hero hero__bg hero__publishers">
+  <div class="hero-a">
+    <div class="container">
+      <div class="row header-trans">
+        {% include links.html param="light" %}
+      </div>
+      <div class="hero-content tac">
+        <h1 class="hd-1 mt">your content gets views.</h1>
+      </div>
     </div>
   </div>
-  <div class="skip tac">
-    <a href="#content"><img src="{{ site.baseurl }}/img/i-arrow.png" alt=""></a>
+  <div class="hero-b tac">
+    <h2 class="hd-1">and you get revenues.</h2>
+    <div class="breathe">
+      <img src="{{ site.baseurl }}/img/hero-scatter-logo.png" alt="">
+    </div>
+    <div class="skip tac">
+      <a href="#content"><img src="{{ site.baseurl }}/img/i-arrow.png" alt=""></a>
+    </div>
   </div>
 </div>
 <!-- /hero -->
