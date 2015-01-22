@@ -13,4 +13,9 @@ $(document).ready(function() {
       }, 1000);
     }
   });
+
+  $('.customer').click(function() {
+    $('.customer').removeClass('active');
+    $(this).addClass('active');
+  });
 });
