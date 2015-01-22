@@ -20,6 +20,9 @@ p {
 .header {
   background:#f5f5f5 url('../img/bg-header.png') repeat-x;
   z-index: 99999;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .header-trans {
   position: relative;
@@ -36,7 +39,7 @@ p {
 }
 .links li {
   list-style: none;
-  line-height: 30px;
+  line-height: 50px;
 }
 .links a {
   display: block;
@@ -110,6 +113,7 @@ p {
   background-color:#d82126;
   color: #fff;
   position: relative;
+  top: 80px;
 }
 .hero-a {
   background-color: #f37a20;
@@ -273,31 +277,11 @@ p {
   position: absolute;
   width: 60px;
   height: 60px;
-}
-.scatter-link-facebook {
-  left: 235px;
+  left: 0;
   top: 0;
+  outline: 1px solid #fff; 
 }
-.scatter-link-twitter {
-  left: 95px;
-  top: 80px;
-}
-.scatter-link-linkedin {
-  top: 80px;
-  left: 375px;
-}
-.scatter-link-pinterest {
-  left: 95px;
-  top: 242px;
-}
-.scatter-link-googleplus {
-  left: 375px;
-  top: 242px;
-}
-.scatter-link-slideshare {
-  left: 235px;
-  top: 325px;
-}
+
 
 .footer-links {
   padding: 10px 0;
@@ -363,13 +347,20 @@ article strong {
 img {
   max-width: 100%;
 }
-
+.navbar-toggle {
+  margin: 0;
+  padding: 0;
+  line-height: 80px;
+}
 .circle {
   color: #fff;
   background: #b342ba;
   margin: 0 auto 40px;
 }
 @media (min-width: 992px) {
+  .header {
+    position: static;
+  }
   .bs-navbar-collapse {
     display: block;
     visibility: visible;
@@ -426,5 +417,29 @@ img {
     background: url('../img/i-star.png') no-repeat center;
     left: 0;
     bottom: -92px;
+  }
+  .scatter-link-facebook {
+    left: 235px;
+    top: 0;
+  }
+  .scatter-link-twitter {
+    left: 95px;
+    top: 80px;
+  }
+  .scatter-link-linkedin {
+    top: 80px;
+    left: 375px;
+  }
+  .scatter-link-pinterest {
+    left: 95px;
+    top: 242px;
+  }
+  .scatter-link-googleplus {
+    left: 375px;
+    top: 242px;
+  }
+  .scatter-link-slideshare {
+    left: 235px;
+    top: 325px;
   }
 }
