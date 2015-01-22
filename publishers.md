@@ -19,7 +19,7 @@ permalink: /publishers/
     <div class="breathe">
       <img src="{{ site.baseurl }}/img/hero-scatter-logo.png" alt="">
     </div>
-    <div class="skip tac">
+    <div class="hidden-xs skip tac">
       <a href="#content"><img src="{{ site.baseurl }}/img/i-arrow.png" alt=""></a>
     </div>
   </div>
