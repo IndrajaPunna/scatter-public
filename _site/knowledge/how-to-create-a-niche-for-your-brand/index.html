@@ -3,27 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>Scatter</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
   <link rel="stylesheet" href="/scatter-public/css/bootstrap.min.css">
   <link rel="stylesheet" href="/scatter-public/css/fonts/stylesheet.css">
   <link rel="stylesheet" href="/scatter-public/css/scatter.css">
 </head>
 <body>
-<div id="content" class="header">
+<div id="content" class="header hidden-xs">
   <div class="container">
     <div class="row">
       <div class="col-md-4">
+  <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        =
+      </button>
   <a href="/scatter-public/" class="logo">
     <img src="/scatter-public/img/scatter-dark.png" alt="Scatter-logo">
   </a>
 </div>
 <div class="col-md-8">
-  <ul class="links">
-    <li><a  href="/scatter-public/advertisers">advertisers</a></li>
-    <li><a href="/scatter-public/publishers">publishers</a></li>
-    <li><a href="/scatter-public/knowledge">knowledge</a></li>
-    <li><a href="#interact">contact</a></li>
-  </ul>
+  <div class="collapse bs-navbar-collapse">
+    <ul class="links">
+      <li><a  href="/scatter-public/advertisers">advertisers</a></li>
+      <li><a href="/scatter-public/publishers">publishers</a></li>
+      <li><a href="/scatter-public/knowledge">knowledge</a></li>
+      <li><a href="#interact">contact</a></li>
+    </ul>
+  </div>
 </div>
     </div>
   </div>
@@ -121,15 +127,15 @@
   <div id="about">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 tac">
-          <img src="/scatter-public/img/i-about.png" alt="">
+        <div class="col-md-4 col-md-push-4 tac">
+          <img src="/scatter-public/img/logo.png" alt="">
+        </div>
+        <div class="col-md-4 col-md-pull-4 tac">
+          <img class="hidden-xs" src="/scatter-public/img/i-about.png" alt="">
           <p class="brief-text">Scatter is the first product from Spiral Content, a new digital marketing company. With 40 years of experience across firms like Network18, Blackstone and BBC, we are well placed to realise our dream of creating exceptional content platforms to connect the best publishers and brands.</p>
         </div>
         <div class="col-md-4 tac">
-          <img src="/scatter-public/img/logo.png" alt="">
-        </div>
-        <div class="col-md-4 tac">
-          <img src="/scatter-public/img/i-connect.png" alt="">
+          <img class="hidden-xs" src="/scatter-public/img/i-connect.png" alt="">
           <p class="brief-text">From former media executives, to fresh graduates, we have a team that is both experienced and diverse. Brought together by a shared love of digital marketing, our dream is to revolutionise content by creating beautiful, innovative products.</p>
           <p><a href="http://www.linkedin.com/company/spiral-content-solutions">CONNECT ON LINKEDIN</a></p>
         </div>
@@ -140,30 +146,7 @@
   <div id="interact" class="section">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <div class="form">
-            <h2 class="hd-2">Contact us</h2>
-            <form action="http://formspree.io/pratik.phodu@gmail.com" method="POST">
-              <div class="row mb">
-                <div class="col-md-6"><input class="form-control" type="text" required name="first_name" placeholder="First Name"></div>
-                <div class="col-md-6"><input class="form-control" type="text" required name="last_name" placeholder="Last Name"></div>
-              </div>
-              <div class="row mb">
-                <div class="col-md-6"><input class="form-control" type="text" required name="phone" placeholder="Phone Number"></div>
-                <div class="col-md-6"><input class="form-control" type="email" required name="email" placeholder="E-Mail"></div>
-              </div>
-              <div class="row mb">
-                <div class="col-md-6"><input class="form-control" type="text" required name="company" placeholder="Company"></div>
-                <div class="col-md-6"><input class="form-control" type="text" required name="job_function" placeholder="Job Function"></div>
-              </div>
-              <textarea name="message" rows="5" class="form-control mb" placeholder="Message"></textarea>
-              <div class="row">
-                <div class="col-md-6 col-md-offset-6"><input type="submit" class="btn btn-tertiary btn-block" value="Say hello"></div>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-md-push-6">
           <div class="scatter-links tac">
             <img src="/scatter-public/img/scatter-social.png" alt="">
             <a href="https://www.facebook.com/pages/Spiral-Content-Solutions-Pvt-Ltd/1534191826828446?ref=hl" class="scatter-link scatter-link-facebook"></a>
@@ -174,11 +157,34 @@
             <a href="https://www.pinterest.com/spiralcontent/" class="scatter-link scatter-link-pinterest"></a>
           </div>
         </div>
+        <div class="col-md-6 col-md-pull-6">
+          <div class="form">
+            <h2 class="hd-2">Contact us</h2>
+            <form action="http://formspree.io/pratik.phodu@gmail.com" method="POST">
+              <div class="row mb">
+                <div class="col-xs-6"><input class="form-control" type="text" required name="first_name" placeholder="First Name"></div>
+                <div class="col-xs-6"><input class="form-control" type="text" required name="last_name" placeholder="Last Name"></div>
+              </div>
+              <div class="row mb">
+                <div class="col-xs-6"><input class="form-control" type="text" required name="phone" placeholder="Phone Number"></div>
+                <div class="col-xs-6"><input class="form-control" type="email" required name="email" placeholder="E-Mail"></div>
+              </div>
+              <div class="row mb">
+                <div class="col-xs-6"><input class="form-control" type="text" required name="company" placeholder="Company"></div>
+                <div class="col-xs-6"><input class="form-control" type="text" required name="job_function" placeholder="Job Function"></div>
+              </div>
+              <textarea name="message" rows="5" class="form-control mb" placeholder="Message"></textarea>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-6"><input type="submit" class="btn btn-tertiary btn-block" value="Say hello"></div>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
-  <div id="footer">
+  <div id="footer" class="hidden-xs">
     <div class="container tac footer-links">
       <p><a href="/scatter-public/advertisers">information for advertisers</a> - <a href="/scatter-public/files/scatter-advertiser-faqs.pdf">FAQs for advertisers</a> - <a href="/scatter-public/publishers">information for publishers</a> - <a href="/scatter-public/files/scatter-publisher-faqs.pdf">FAQs for publishers</a> - <a href="/scatter-public/knowledge">knowledge &amp; resource center</a></p>
       <p>Copyright &copy; 2014 Spiral Content Pvt Ltd</p>
@@ -186,6 +192,7 @@
   </div>
 
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="/scatter-public/js/bootstrap.min.js"></script>
   <script src="/scatter-public/js/jquery.pin.js"></script>
   <script src="/scatter-public/js/scatter.js"></script>
 </body>
