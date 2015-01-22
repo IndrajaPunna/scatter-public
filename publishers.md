@@ -6,7 +6,7 @@ permalink: /publishers/
 <div id="hero" class="hero hero__bg hero__publishers">
   <div class="hero-a">
     <div class="container">
-      <div class="row header-trans">
+      <div class="row header-trans hidden-xs">
         {% include links.html param="light" %}
       </div>
       <div class="hero-content tac">

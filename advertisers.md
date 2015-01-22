@@ -7,7 +7,7 @@ permalink: /advertisers/
 <div id="hero" class="hero hero__bg hero__advertisers">
   <div class="hero-a">
     <div class="container">
-      <div class="row header-trans">
+      <div class="row header-trans hidden-xs">
         {% include links.html param="light" %}
       </div>
       <div class="hero-content tac">
@@ -20,18 +20,20 @@ permalink: /advertisers/
     <div class="breathe">
       <img src="{{ site.baseurl }}/img/hero-scatter-logo.png" alt="">
     </div>
-    <div class="row">
-      <div class="col-md-4 tac">
-        <img src="{{ site.baseurl }}/img/i-context.png" alt="">
-        <h3 class="hd-3">create context</h3>
-      </div>
-      <div class="col-md-4 tac">
-        <img src="{{ site.baseurl }}/img/i-relationships.png" alt="">
-        <h3 class="hd-3">Build Meaningful Relationships</h3>
-      </div>
-      <div class="col-md-4 tac">
-        <img src="{{ site.baseurl }}/img/i-insights.png" alt="">
-        <h3 class="hd-3">Gain User Insights</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 tac">
+          <img src="{{ site.baseurl }}/img/i-context.png" alt="">
+          <h3 class="hd-3">create context</h3>
+        </div>
+        <div class="col-md-4 tac">
+          <img src="{{ site.baseurl }}/img/i-relationships.png" alt="">
+          <h3 class="hd-3">Build Meaningful Relationships</h3>
+        </div>
+        <div class="col-md-4 tac">
+          <img src="{{ site.baseurl }}/img/i-insights.png" alt="">
+          <h3 class="hd-3">Gain User Insights</h3>
+        </div>
       </div>
     </div>
     <div class="hidden-xs skip tac">
