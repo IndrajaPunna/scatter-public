@@ -21,7 +21,7 @@ permalink: /
       <img src="{{ site.baseurl }}/img/hero-scatter-logo.png" alt="">
     </div>
     <div>
-      <a href="#interact" class="btn btn-tertiary">request a demo</a>
+      <a href="#contact" class="btn btn-tertiary">request a demo</a>
     </div>
     <div class="hidden-xs skip tac">
       <a href="#content"><img src="{{ site.baseurl }}/img/i-arrow.png" alt=""></a>
@@ -73,32 +73,36 @@ permalink: /
   <div class="container star">
     <div class="row tac">
       <div class="col-md-6">
-        <div class="circle arrow-double">
-          <h2 class="hd-2">advertisers</h2>
-          <img src="{{ site.baseurl }}/img/i-advertisers.png" alt="">
-          <p class="brief-text">
-            A content marketplace that works for <br>
-            you. We source content from best <br>
-            of breed publishers and make it <br>
-            available for you to engage <br>
-            your audiences
-          </p>
+        <div class="advertisers">
+          <div class="circle arrow-double">
+            <h2 class="hd-2">advertisers</h2>
+            <img src="{{ site.baseurl }}/img/i-advertisers.png" alt="">
+            <p class="brief-text">
+              A content marketplace that works for <br>
+              you. We source content from best <br>
+              of breed publishers and make it <br>
+              available for you to engage <br>
+              your audiences
+            </p>
+          </div>
+          <div class="pb"><a href="{{ site.baseurl }}/advertisers" class="btn btn-tertiary">learn more about scatter</a></div>
         </div>
-        <p><a href="{{ site.baseurl }}/advertisers" class="btn btn-tertiary">learn more about scatter</a></p>
       </div>
       <div class="col-md-6">
-        <div class="tac circle circle-secondary">
-          <h2 class="hd-2">publishers</h2>
-          <img src="{{ site.baseurl }}/img/i-publishers.png" alt="">
-          <p class="brief-text">
-            Generate site traffic and revenues! <br>
-            Scatter brings your feature content <br>
-            to the fore, increasing your page <br>
-            views, revenue streams, and <br>
-            your social quotient
-          </p>
+        <div class="publishers">
+          <div class="circle circle-secondary">
+            <h2 class="hd-2">publishers</h2>
+            <img src="{{ site.baseurl }}/img/i-publishers.png" alt="">
+            <p class="brief-text">
+              Generate site traffic and revenues! <br>
+              Scatter brings your feature content <br>
+              to the fore, increasing your page <br>
+              views, revenue streams, and <br>
+              your social quotient
+            </p>
+          </div>
+          <div class="pb"><a href="{{ site.baseurl }}/publishers" class="btn btn-tertiary">join our publisher network</a></div>
         </div>
-        <p><a href="{{ site.baseurl }}/publishers" class="btn btn-tertiary">join our publisher network</a></p>
       </div>
     </div>
   </div>

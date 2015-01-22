@@ -22,15 +22,15 @@ permalink: /advertisers/
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-4 tac">
+        <div class="col-xs-4 tac">
           <img src="{{ site.baseurl }}/img/i-context.png" alt="">
           <h3 class="hd-3">create context</h3>
         </div>
-        <div class="col-md-4 tac">
+        <div class="col-xs-4 tac">
           <img src="{{ site.baseurl }}/img/i-relationships.png" alt="">
           <h3 class="hd-3">Build Meaningful Relationships</h3>
         </div>
-        <div class="col-md-4 tac">
+        <div class="col-xs-4 tac">
           <img src="{{ site.baseurl }}/img/i-insights.png" alt="">
           <h3 class="hd-3">Gain User Insights</h3>
         </div>
@@ -49,28 +49,28 @@ permalink: /advertisers/
   <div class="container">
     <h2 class="hd-2 tac">how does scatter help advertisers?</h2>
     <div class="row breathe">
-      <div class="col-md-3">
+      <div class="col-md-3 mt pb">
         <div class="tac">
           <h3 class="hd-3">unprecedented scale</h3>
           <img src="{{ site.baseurl }}/img/i-time.png" alt="">
           <p class="brief-text">Scatter allows you to acquire large amounts of content in short periods of time</p>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 mt pb">
         <div class="tac">
           <h3 class="hd-3">Legal sourcing</h3>
           <img src="{{ site.baseurl }}/img/i-legal.png" alt="">
           <p class="brief-text">Scatter's publisher network gives you a steady stream of 100% legal content</p>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 mt pb">
         <div class="tac">
           <h3 class="hd-3">Daily Engagement</h3>
           <img src="{{ site.baseurl }}/img/i-engagement.png" alt="">
           <p class="brief-text">Use our content planning tool to effectively engage with your audience on a daily basis</p>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 mt pb">
         <div class="tac">
           <h3 class="hd-3">Guaranteed Quality</h3>
           <img src="{{ site.baseurl }}/img/i-quality.png" alt="">
