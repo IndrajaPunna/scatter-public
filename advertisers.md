@@ -45,7 +45,7 @@ permalink: /advertisers/
 
 {% include nav.html %}
 
-<div id="advertisers" class="section">
+<div id="intro" class="section">
   <div class="container">
     <h2 class="hd-2 tac">how does scatter help advertisers?</h2>
     <div class="row breathe">
@@ -89,7 +89,7 @@ permalink: /advertisers/
   <div class="feature feature-gray">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 hidden-xs">
           <img src="{{ site.baseurl }}/img/feature-dashboard.jpg" alt="">
         </div>
         <div class="col-md-8">
@@ -110,7 +110,7 @@ permalink: /advertisers/
             <p class="brief-text">Source 'best of breed' content within minutes. Scatter helps your content marketing initiative achieve the scale you always wanted, with legally sourced, easily available content.</p>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 hidden-xs">
           <img src="{{ site.baseurl }}/img/feature-calendar.jpg" alt="">
         </div>
       </div>
@@ -119,7 +119,7 @@ permalink: /advertisers/
   <div class="feature feature-gray">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 hidden-xs">
           <img src="{{ site.baseurl }}/img/feature-searchresult.jpg" alt="">
         </div>
         <div class="col-md-8">

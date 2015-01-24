@@ -28,7 +28,7 @@ permalink: /publishers/
 
 {% include nav.html %}
 
-<div id="advertisers" class="section">
+<div id="intro" class="section">
   <div class="container">
     <h2 class="hd-2 tac">How Does Scatter Help Publishers?</h2>
     <div class="row tac breathe">
