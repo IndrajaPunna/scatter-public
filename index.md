@@ -41,7 +41,8 @@ permalink: /
           <h3 class="hd-3">discover</h3>
           <img src="{{ site.baseurl }}/img/i-discover.png" alt="">
           <p class="hidden-xs">Our intelligent search adapts to your needs, and learns from your patterns, giving you recommended and customised results. Never miss a trend again.</p>
-          <span class="hidden-xs"><a href="#"><img src="{{ site.baseurl }}/img/i-discover-1.jpg" alt=""></a>
+          <span class="hidden-xs screenshot">
+            <a href="#"><img src="{{ site.baseurl }}/img/i-discover-1.jpg" alt=""></a>
             <a href="#" class="ml"><img src="{{ site.baseurl }}/img/i-discover-2.jpg" alt=""></a></span>
         </div>
       </div>
@@ -50,7 +51,8 @@ permalink: /
           <h3 class="hd-3">distribute</h3>
           <img src="{{ site.baseurl }}/img/i-distribute.png" alt="">
           <p class="hidden-xs">Use our editorial calendar for easy planning of your content marketing activities. Wrap the content you like with the ads that you want, and let it travel.</p>
-          <span class="hidden-xs"><a href="#"><img src="{{ site.baseurl }}/img/i-distribute-1.jpg" alt=""></a>
+          <span class="hidden-xs screenshot">
+            <a href="#"><img src="{{ site.baseurl }}/img/i-distribute-1.jpg" alt=""></a>
             <a href="#" class="ml"><img src="{{ site.baseurl }}/img/i-distribute-2.jpg" alt=""></a></span>
         </div>
       </div>
@@ -59,7 +61,8 @@ permalink: /
           <h3 class="hd-3">delight</h3>
           <img src="{{ site.baseurl }}/img/i-delight.png" alt="">
           <p class="hidden-xs">Our advanced analytics allow you to monitor engagement rates on your selected content. Get everything you need straight from our Scatter dasboard.</p>
-          <span class="hidden-xs"><a href="#"><img src="{{ site.baseurl }}/img/i-delight-1.jpg" alt=""></a>
+          <span class="hidden-xs screenshot">
+            <a href="#"><img src="{{ site.baseurl }}/img/i-delight-1.jpg" alt=""></a>
             <a href="#" class="ml"><img src="{{ site.baseurl }}/img/i-delight-2.jpg" alt=""></a></span>
         </div>
       </div>
