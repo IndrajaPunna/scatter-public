@@ -50,7 +50,7 @@ permalink: /publishers/
     </div>
     <div class="tac">
       <p><a href="{{ site.baseurl }}/files/scatter-publisher-faqs.pdf" class="btn btn-action">Want to know more? <b>Download our FAQ</b></a></p>
-      <p>PDF Format - 213KB</p>
+      <p class="btn__info">PDF Format - 213KB</p>
     </div>
   </div>
 </div>
