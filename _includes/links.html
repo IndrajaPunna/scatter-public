@@ -1,0 +1,18 @@
+<div class="col-md-4">
+  <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <img src="{{ site.baseurl }}/img/i-menu.png" alt="">
+      </button>
+  <a href="{{ site.baseurl }}/" class="logo">
+    <img src="{{ site.baseurl }}/img/scatter-{{ include.param }}.png" alt="Scatter-logo">
+  </a>
+</div>
+<div class="col-md-8">
+  <div class="collapse bs-navbar-collapse">
+    <ul class="links">
+      <li><a {% if page.url == '/advertisers/' %} class="active" {% endif %} href="{{ site.baseurl }}/advertisers">advertisers</a></li>
+      <li><a {% if page.url == '/publishers/' %} class="active" {% endif %}href="{{ site.baseurl }}/publishers">publishers</a></li>
+      <li><a {% if page.url == '/knowledge/' %} class="active" {% endif %}href="{{ site.baseurl }}/knowledge">knowledge</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </div>
+</div>
