@@ -79,7 +79,7 @@ permalink: /advertisers/
       </div>
     </div>
     <div class="tac">
-      <p><a href="{{ site.baseurl }}/files/scatter-advertiser-faqs.pdf" class="btn btn-action">Want to know more? <b>Download our FAQ</b></a></p>
+      <p><a href="{{ site.baseurl }}/files/scatter-advertiser-faqs.pdf" class="btn btn-action" target="_blank">Want to know more? <b>Download our FAQ</b></a></p>
       <p>PDF Format - 247KB</p>
     </div>
   </div>
@@ -107,11 +107,11 @@ permalink: /advertisers/
         <div class="col-md-8">
           <div class="feature-content">
             <h2 class="hd-2">Quality content in minutes</h2>
-            <p class="brief-text">Source 'best of breed' content within minutes. Scatter helps your content marketing initiative achieve the scale you always wanted, with legally sourced, easily available content.</p>
+            <p class="brief-text">Source 'best of breed' content within minutes. Scatter helps your content marketing initiative achieve the scale you always wanted, with legally sourced and easily available content.</p>
           </div>
         </div>
         <div class="col-md-4 hidden-xs">
-          <img src="{{ site.baseurl }}/img/feature-calendar.jpg" alt="">
+          <img src="{{ site.baseurl }}/img/feature-searchresult.jpg" alt="">
         </div>
       </div>
     </div>
@@ -120,12 +120,12 @@ permalink: /advertisers/
     <div class="container">
       <div class="row">
         <div class="col-md-4 hidden-xs">
-          <img src="{{ site.baseurl }}/img/feature-searchresult.jpg" alt="">
+          <img src="{{ site.baseurl }}/img/feature-calendar.jpg" alt="">
         </div>
         <div class="col-md-8">
           <div class="feature-content">
             <h2 class="hd-2">Plan campaigns Better</h2>
-            <p class="brief-text">Make your content marketing initiatives more efficient with our exhaustive editorial planning tool, and use our analytics engine to track your campaign’s performance in detail.</p>
+            <p class="brief-text">Make your content marketing initiatives more efficient with our exhaustive editorial planning tool and use our analytics engine to track your campaign’s performance in detail.</p>
           </div>
         </div>
       </div>
