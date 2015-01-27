@@ -33,7 +33,7 @@ permalink: /publishers/
     <h2 class="hd-2 tac">How Does Scatter Help Publishers?</h2>
     <div class="row tac breathe">
       <div class="col-md-4">
-        <h3 class="hd-3">New Revenue Streams</h3>
+        <h3 class="hd-3">New Revenue Stream</h3>
         <img src="{{ site.baseurl }}/img/i-revenue.png" alt="">
         <p class="brief-text">By making your existing content available for purchase, and by boosting traffic, Scatter opens up new options for monetization</p>
       </div>
@@ -61,7 +61,7 @@ permalink: /publishers/
       <div class="col-md-6">
         <div class="tac brief-big">
           <h3 class="hd-3">Easy Integration</h3>
-          <p>We do the work for you. Once you are part of our publisher network, you’ll have an option of two easy ways in which your site can be integrated on Scatter</p>
+          <p>We do the work for you. Once you're part of our publisher network, we’ll handle your content, ensuringit goes into the market place with the right tags, and comes out of it with the right ads.</p>
         </div>
       </div>
       <div class="col-md-6">
