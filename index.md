@@ -40,7 +40,7 @@ permalink: /
         <div class="brief tac">
           <h3 class="hd-3">discover</h3>
           <img src="{{ site.baseurl }}/img/i-discover.png" alt="">
-          <p class="hidden-xs">Our intelligent search adapts to your needs, and learns from your patterns, giving you recommended and customised results. Never miss a trend again.</p>
+          <p class="hidden-xs">Our intelligent search adapts to your needs and learns from you, giving you recommended and custom results. Never miss a trend again.</p>
           <span class="hidden-xs screenshot">
             <a href="#"><img src="{{ site.baseurl }}/img/i-discover-1.jpg" alt=""></a>
             <a href="#" class="ml"><img src="{{ site.baseurl }}/img/i-discover-2.jpg" alt=""></a></span>
@@ -100,8 +100,8 @@ permalink: /
               Generate site traffic and revenues! <br>
               Scatter brings your feature content <br>
               to the fore, increasing your page <br>
-              views, revenue streams, and <br>
-              your social quotient
+              views, revenue and your <br>
+              social quotient
             </p>
           </div>
           <div class="pb"><a href="{{ site.baseurl }}/publishers" class="btn btn-tertiary">join our publisher network</a></div>
