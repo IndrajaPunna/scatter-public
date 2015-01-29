@@ -402,6 +402,14 @@ blockquote {
   border-width: 1px 0;
   margin-bottom: 28px;
 }
+.share-icons {
+  margin-top: 24px;
+  padding: 0;
+  list-style: none;
+}
+.share-icons li {
+  margin-bottom: 16px;
+}
 article h1 {
   text-transform: uppercase;
 }
@@ -557,6 +565,18 @@ img {
   }
   .article h3 {
     font-size: 28px;
+  }
+  .article-sm {
+    height: 268px;
+  }
+  .article-sm h3 {
+    font-size: 20px;
+  }
+  .article-xs {
+    height: 200px;
+  }
+  .article-xs h3 {
+    font-size: 16px;
   }
   .circle {
     color: #fff;
