@@ -9,12 +9,12 @@
       <div class="row" style="background-color: whitesmoke;">
         <div class="col-md-1">
             <ul class="share-icons">
-              <li><a href="https://twitter.com/intent/tweet?url=<%= url%>&text=<%= @campaign.description%>"><img src="{{ site.baseurl }}/img/i-twitter.png" /></a></li>
-              <li><a href="#"><img src="{{ site.baseurl }}/img/i-facebook.png" /></a></li>
-              <li><a href="#"><img src="{{ site.baseurl }}/img/i-linkedin.png" /></a></li>
+              <li><a href="https://twitter.com/intent/tweet?url={{ page.url}}&text={{ page.title }}"><img src="{{ site.baseurl }}/img/i-twitter.png" /></a></li>
+              <li><a href="//facebook.com/sharer/sharer.php?u={{ page.url }}" onclick="openPopup(this.href);"><img src="{{ site.baseurl }}/img/i-facebook.png" /></a></li>
+              <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ page.url }}" onclick="openPopup(this.href);"><img src="{{ site.baseurl }}/img/i-linkedin.png" /></a></li>
               <li><a href="#"><img src="{{ site.baseurl }}/img/i-googleplus.png" /></a></li>
-              <li><a href="#"><img src="{{ site.baseurl }}/img/i-pinterest.png" /></a></li>
-              <li><a href="#"><img src="{{ site.baseurl }}/img/i-email.png" /></a></li>
+              <li><a href="http://www.pinterest.com/pin/create/button/?url={{page.url}}" onclick="openPopup(this.href)"><img src="{{ site.baseurl }}/img/i-pinterest.png" /></a></li>
+              <!-- <li><a href=""><img src="{{ site.baseurl }}/img/i-email.png" /></a></li> -->
             </ul>
         </div>
         <div class="col-md-10">
@@ -42,4 +42,6 @@
   </div>
   <!-- comments -->
 </div>
+
+<script src="//platform.twitter.com/widgets.js"></script>
 {% include footer.html %}
