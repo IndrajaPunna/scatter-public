@@ -20,7 +20,7 @@ permalink: /advertisers/
     <div class="breathe">
       <img src="{{ site.baseurl }}/img/hero-scatter-logo.png" alt="">
     </div>
-    <div class="container">
+    <div class="container" style="margin-top: -30px;">
       <div class="row">
         <div class="col-xs-4 tac">
           <img src="{{ site.baseurl }}/img/i-context.png" alt="">

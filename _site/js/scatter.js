@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('.hero-b').height($(window).height()-$('.hero-a').height() - 10); // hero height
-  $('#intro').height($(window).height() - 80); // intro height
+  // $('#intro').height($(window).height() - 80); // intro height
   
   $(".header").pin(); // sticky nav
   

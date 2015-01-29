@@ -1,6 +1,7 @@
 body {
   font-family: "gotham_rnd_ssmbook";
   color: #505052;
+  zoom: 0.8;
 }
 .container {
   position: relative;
@@ -11,6 +12,9 @@ p {
 a,
 a:hover {
   text-decoration: none;
+}
+blockquote {
+  margin: 0;
 }
 
 .section {
@@ -66,14 +70,6 @@ a:hover {
 .scatter {
   background: url('../img/bg-scatter.png');
 }
-.brief-big {
-  padding: 30px 100px;
-}
-.brief p {
-  padding: 0 60px 10px;
-  font-size: 12px;
-  line-height: 1.7;
-}
 .brief-text {
   font-size: 16px;
   line-height: 1.6;
@@ -98,7 +94,6 @@ a:hover {
   background-size: cover;
   border-radius: 6px;
   position: relative;
-  height: 404px;
 }
 .article:before {
   border-radius: 6px;
@@ -111,6 +106,7 @@ a:hover {
   opacity: 0.15;
 }
 .article:hover:before {opacity: 0.3;}
+.article,
 .article-sm {
   height: 268px;
 }
@@ -120,7 +116,6 @@ a:hover {
 .article h3 {
   font-family: "gotham_rnd_ssmbold";
   font-weight: normal;
-  font-size: 28px;
   bottom: 20px;
   color: #fff;
   text-shadow: 1px 1px 2px #000;
@@ -131,6 +126,7 @@ a:hover {
   line-height: 1.2;
   width: 100%;
 }
+.article h3,
 .article-sm h3 {
   font-size: 20px;
 }
@@ -185,9 +181,6 @@ a:hover {
 #publishers {
   background:#000  url('../img/bg-publishers.jpg');
   color: #fff;
-}
-#publishers .container {
-  background: url('../img/scatter-logo.png') center no-repeat;
 }
 
 #interact {
@@ -388,9 +381,7 @@ a:hover {
   animation: mymove 2s infinite;
   -webkit-animation: mymove 2s infinite;
 }
-.testimonial {
-  /*padding: 0 16%;*/
-}
+
 .quote {
   font-size: 28px;
   margin-top: 0;
@@ -444,7 +435,7 @@ img {
   padding: 28px 0;
 }
 .advertisers {
-  background: #b022c5;
+  background: #b342ba;
 }
 .publishers {
   background-color: #6d26f2;
@@ -461,7 +452,10 @@ img {
 .circle-secondary {
   background-color: #6d26f2;
 } 
-
+.customers,
+.testimonials {
+  zoom: 0.8;
+}
 .customer {
   cursor: pointer;
   display: inline-block;
@@ -489,16 +483,36 @@ img {
 }
 
 @media (min-width: 992px) {
+  body {
+    zoom: 1;
+  }
   .header {
     position: static;
+  }
+  #intro {
+    min-height: 600px;
   }
   .hero {
     top: 0;
     padding-bottom: 0;
   }
+  #section-1 {
+    background: url('img/bg-home-ap.jpg');
+  }
   .bs-navbar-collapse {
     display: block;
     visibility: visible;
+  }
+  #publishers .container {
+    background: url('../img/scatter-logo.png') center no-repeat;
+  }
+  .brief-big {
+    padding: 30px 100px;
+  }
+  .brief p {
+    padding: 0 60px 10px;
+    font-size: 12px;
+    line-height: 1.7;
   }
   .links {
     float: right;
@@ -521,6 +535,10 @@ img {
   .hero .hd-3 {
     font-size: 16px;
   }
+  .customers,
+  .testimonials {
+    zoom: 1;
+  }
   .testimonial {
     padding: 0 16%;
   }
@@ -533,6 +551,12 @@ img {
     margin-right: 36px;
     text-align: right;
     float: right;
+  }
+  .article {
+    height: 404px;
+  }
+  .article h3 {
+    font-size: 28px;
   }
   .circle {
     color: #fff;

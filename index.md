@@ -72,7 +72,7 @@ permalink: /
 <!-- /intro -->
 
 <!-- section-1 -->
-<div id="section-1" style="background: url('img/bg-home-ap.jpg');" class="section">
+<div id="section-1" class="section">
   <div class="container star">
     <div class="row tac">
       <div class="col-md-6">
