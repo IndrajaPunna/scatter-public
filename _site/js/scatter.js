@@ -3,6 +3,13 @@ $(document).ready(function() {
   // $('#intro').height($(window).height() - 80); // intro height
   
   $(".header").pin(); // sticky nav
+  $(".share-icons").pin({
+    containerSelector: ".article-wrap",
+    padding: {
+      top: 80,
+      bottom: 30
+    }
+  })
   
   // animated scroll
   $('a[href^="#"]').on('click', function(event) {
