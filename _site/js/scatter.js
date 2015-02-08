@@ -26,30 +26,36 @@ $(document).ready(function() {
   var el = $('.header-trans');
   var logo = el.find('.logo img');
   var logoSRC = logo.attr('src');
-  $(window).on('scroll', function() {
-    var scrollAmount = $(this).scrollTop();
-    if(scrollAmount > 0) {
-      el.removeClass('header-trans');
-      logo.attr('src', logoSRC.replace('light','dark'));
-    }
-    else {
-      el.addClass('header-trans');
-      logo.attr('src', logoSRC.replace('dark','light'));
-    }
-  });
+  if(is.desktop()) {
+    $(window).on('scroll', function() {
+      var scrollAmount = $(this).scrollTop();
+      if(scrollAmount > 0) {
+        el.removeClass('header-trans');
+        logo.attr('src', logoSRC.replace('light','dark'));
+      }
+      else {
+        el.addClass('header-trans');
+        logo.attr('src', logoSRC.replace('dark','light'));
+      }
+    });
+  }
+  else {
+    logo.attr('src', logoSRC.replace('light','dark'));
+  }
 
+  // for the customer testimonials
   $('.customer').click(function() {
     $('.customer').removeClass('active');
     $(this).addClass('active');
   });
 });
 
-// thanks
+// thanks page
 if(window.location.hash == '#thanks') {
   $('#thanks').show();
 }
 
-
+// popup for share
 var openPopup = function(href){
   event.preventDefault();
   var left = (screen.width/2)-(550/2);
