@@ -2,11 +2,11 @@ $(document).ready(function() {
   $('.hero-b').height($(window).height()-$('.hero-a').height() - 10); // hero height
   // $('#intro').height($(window).height() - 80); // intro height
   
-  $(".header").pin(); // sticky nav
+  $(".header,.header-trans").pin(); // sticky nav
   $(".share-icons").pin({
     containerSelector: ".article-wrap",
     padding: {
-      top: 80,
+      top: 60,
       bottom: 60
     }
   })

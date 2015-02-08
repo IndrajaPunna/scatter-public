@@ -35,6 +35,7 @@ blockquote {
 .header-trans {
   position: relative;
   z-index: 99999;
+  height: 80px;
 }
 .logo {
   display: block;
@@ -260,7 +261,7 @@ blockquote {
   text-align: center;
 }
 .breathe {
-  margin-top: 60px;
+  margin-top: 48px;
   margin-bottom: 60px;
 }
 .bt {
@@ -382,6 +383,36 @@ blockquote {
   -webkit-animation: mymove 2s infinite;
 }
 
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+.input-group .form-control,
+.input-group .input-group-btn {
+  display: table-cell;
+}
+
+.input-group .form-control {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.input-group .input-group-btn {
+  vertical-align: middle;
+  width: 1%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.input-group-btn .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
 .quote {
   font-size: 28px;
   margin-top: 0;
@@ -401,6 +432,7 @@ blockquote {
   border: 1px solid #f5f5f5;
   border-width: 1px 0;
   margin-bottom: 28px;
+  position: relative;
 }
 .share-icons {
   margin-top: 24px;
@@ -505,7 +537,7 @@ img {
     padding-bottom: 0;
   }
   #section-1 {
-    background: url('img/bg-home-ap.jpg');
+    background: url('../img/bg-home-ap.jpg');
   }
   .bs-navbar-collapse {
     display: block;

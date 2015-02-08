@@ -8,8 +8,8 @@ permalink: /
 <div id="hero" class="hero hero__homepage">
   <div class="hero-a">
     <div class="container">
-      <div class="header-wrapper">
-        <div class="row header-trans hidden-xs">
+      <div class="row hidden-xs">
+        <div class="header-trans">
           {% include links.html param="light" %}
         </div>
       </div>
