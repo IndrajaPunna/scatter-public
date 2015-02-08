@@ -5,12 +5,14 @@ permalink: /knowledge/
 <!-- hero -->
 <div id="hero" class="hero hero__bg hero__knowledge">
   <div class="hero-a">
-    <div class="container">
-      <div class="row">
-        <div class="header-trans">
+    <div class="header">
+      <div class="container">
+        <div class="row">
           {% include links.html param="light" %}
         </div>
       </div>
+    </div>
+    <div class="container">
       <div class="hero-content tac">
         <h1 class="hd-1 mt">stay hungry but not foolish.</h1>
       </div>
@@ -28,8 +30,7 @@ permalink: /knowledge/
 </div>
 <!-- /hero -->
 
-
-<div id="knowledge" class="mt">
+<div id="content" class="mt">
   <div class="container">
     <div class="row">
       {% for post in site.posts %}
