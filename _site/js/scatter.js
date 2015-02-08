@@ -44,6 +44,11 @@ $(document).ready(function() {
   });
 });
 
+// thanks
+if(window.location.hash == '#thanks') {
+  $('#thanks').show();
+}
+
 
 var openPopup = function(href){
   event.preventDefault();
