@@ -33,12 +33,6 @@ blockquote {
   width: 100%;
   transition: background 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
-.header-trans {
-  background: transparent !important;
-  position: relative;
-  z-index: 99999;
-  height: 80px;
-}
 
 .logo {
   display: block;
@@ -65,9 +59,6 @@ blockquote {
 }
 .links a.active {
   text-decoration: underline;
-}
-.header-trans .links a{
-  color: #fff !important;
 }
 
 #advertisers,
@@ -150,7 +141,6 @@ blockquote {
   background-color:#d82126;
   color: #fff;
   position: relative;
-  top: 80px;
   padding-bottom: 80px;
 }
 .hero-a {
@@ -557,6 +547,15 @@ img {
   .hero {
     top: 0;
     padding-bottom: 0;
+  }
+  .header-trans {
+    background: transparent !important;
+    position: relative;
+    z-index: 99999;
+    height: 80px;
+  }
+  .header-trans .links a{
+    color: #fff !important;
   }
   #section-1 {
     background: url('../img/bg-home-ap.jpg');
