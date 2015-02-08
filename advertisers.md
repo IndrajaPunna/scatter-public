@@ -7,8 +7,10 @@ permalink: /advertisers/
 <div id="hero" class="hero hero__bg hero__advertisers">
   <div class="hero-a">
     <div class="container">
-      <div class="row header-trans hidden-xs">
-        {% include links.html param="light" %}
+      <div class="row hidden-xs">
+        <div class="header-trans">
+          {% include links.html param="light" %}
+        </div>
       </div>
       <div class="hero-content tac">
         <h1 class="hd-1 mt">content scored from the best publishers.</h1>
@@ -42,8 +44,6 @@ permalink: /advertisers/
   </div>
 </div>
 <!-- /hero -->
-
-{% include nav.html %}
 
 <div id="intro" class="section">
   <div class="container">
