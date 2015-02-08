@@ -525,6 +525,12 @@ img {
   background-position: -342px 6px;
 }
 
+#thanks {
+  display: none;
+  background: #ffe327;
+  text-transform: uppercase;
+}
+
 @media (min-width: 992px) {
   body {
     zoom: 1;
