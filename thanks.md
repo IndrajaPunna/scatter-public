@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /
+permalink: /thanks
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
 

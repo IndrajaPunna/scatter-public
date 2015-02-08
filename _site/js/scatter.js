@@ -2,11 +2,11 @@ $(document).ready(function() {
   $('.hero-b').height($(window).height()-$('.hero-a').height() - 10); // hero height
   // $('#intro').height($(window).height() - 80); // intro height
   
-  $(".header,.header-trans").pin(); // sticky nav
+  $(".header").pin(); // sticky nav
   $(".share-icons").pin({
     containerSelector: ".article-wrap",
     padding: {
-      top: 60,
+      top: 80,
       bottom: 60
     }
   })
@@ -19,6 +19,22 @@ $(document).ready(function() {
       $('html, body').animate({
         scrollTop: target.offset().top
       }, 1000);
+    }
+  });
+  
+  // newscred style transition
+  var el = $('.header-trans');
+  var logo = el.find('.logo img');
+  var logoSRC = logo.attr('src');
+  $(window).on('scroll', function() {
+    var scrollAmount = $(this).scrollTop();
+    if(scrollAmount > 0) {
+      el.removeClass('header-trans');
+      logo.attr('src', logoSRC.replace('light','dark'));
+    }
+    else {
+      el.addClass('header-trans');
+      logo.attr('src', logoSRC.replace('dark','light'));
     }
   });
 
