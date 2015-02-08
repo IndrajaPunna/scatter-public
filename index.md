@@ -7,12 +7,14 @@ permalink: /
 <!-- hero -->
 <div id="hero" class="hero hero__homepage">
   <div class="hero-a">
-    <div class="container">
-      <div class="row hidden-xs">
-        <div class="header-trans">
-          {% include links.html param="light" %}
+    <div class="header">
+      <div class="container">
+        <div class="row">
+          {% include links.html param="dark" %}
         </div>
       </div>
+    </div>
+    <div class="container">
       <div class="hero-content tac">
         <h1 class="hd-1 mt">Awesome content.</h1>
       </div>
@@ -34,15 +36,15 @@ permalink: /
 <!-- /hero -->
 
 <!-- intro -->
-<div class="section scatter">
+<div class="hidden-xs section scatter">
   <div class="container tac">
     <div class="row mt">
       <div class="col-xs-4 arrow-r">
         <div class="brief tac">
           <h3 class="hd-3">discover</h3>
           <img src="{{ site.baseurl }}/img/i-discover.png" alt="">
-          <p class="hidden-xs">Our intelligent search adapts to your needs and learns from you, giving you recommended and custom results. Never miss a trend again.</p>
-          <span class="hidden-xs screenshot">
+          <p>Our intelligent search adapts to your needs and learns from you, giving you recommended and custom results. Never miss a trend again.</p>
+          <span class="screenshot">
             <a href="{{ site.baseurl }}/img/discover-1.jpg" data-lightbox="discover-1"><img src="{{ site.baseurl }}/img/i-discover-1.jpg" alt=""></a>
             <a href="{{ site.baseurl }}/img/discover-2.jpg" data-lightbox="discover-2" class="ml"><img src="{{ site.baseurl }}/img/i-discover-2.jpg" alt=""></a></span>
         </div>
@@ -51,8 +53,8 @@ permalink: /
         <div class="brief tac">
           <h3 class="hd-3">distribute</h3>
           <img src="{{ site.baseurl }}/img/i-distribute.png" alt="">
-          <p class="hidden-xs">Use our editorial calendar for easy planning of your content marketing activities. Wrap the content you like with the ads that you want, and let it travel.</p>
-          <span class="hidden-xs screenshot">
+          <p>Use our editorial calendar for easy planning of your content marketing activities. Wrap the content you like with the ads that you want, and let it travel.</p>
+          <span class="screenshot">
             <a href="{{ site.baseurl }}/img/distribute-1.jpg" data-lightbox="distribute-1"><img src="{{ site.baseurl }}/img/i-distribute-1.jpg" alt=""></a>
             <a href="{{ site.baseurl }}/img/distribute-2.jpg" data-lightbox="distribute-2" class="ml"><img src="{{ site.baseurl }}/img/i-distribute-2.jpg" alt=""></a></span>
         </div>
@@ -61,8 +63,8 @@ permalink: /
         <div class="brief tac">
           <h3 class="hd-3">delight</h3>
           <img src="{{ site.baseurl }}/img/i-delight.png" alt="">
-          <p class="hidden-xs">Our advanced analytics allow you to monitor engagement rates on your selected content. Get everything you need straight from our Scatter dasboard.</p>
-          <span class="hidden-xs screenshot">
+          <p>Our advanced analytics allow you to monitor engagement rates on your selected content. Get everything you need straight from our Scatter dasboard.</p>
+          <span class="screenshot">
             <a href="{{ site.baseurl }}/img/delight-1.jpg" data-lightbox="delight-1"><img src="{{ site.baseurl }}/img/i-delight-1.jpg" alt=""></a>
             <a href="{{ site.baseurl }}/img/delight-2.jpg" data-lightbox="delight-2" class="ml"><img src="{{ site.baseurl }}/img/i-delight-2.jpg" alt=""></a></span>
         </div>

@@ -12,7 +12,7 @@
               <li><a href="https://twitter.com/intent/tweet?url={{ page.url}}&text={{ page.title }}"><img src="{{ site.baseurl }}/img/i-twitter.png" /></a></li>
               <li><a href="//facebook.com/sharer/sharer.php?u={{ page.url }}" onclick="openPopup(this.href);"><img src="{{ site.baseurl }}/img/i-facebook.png" /></a></li>
               <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ page.url }}" onclick="openPopup(this.href);"><img src="{{ site.baseurl }}/img/i-linkedin.png" /></a></li>
-              <li><a href="#"><img src="{{ site.baseurl }}/img/i-googleplus.png" /></a></li>
+              <li><a href="https://plus.google.com/share?url={{ page.url }}" onclick="openPopup(this.href)"><img src="{{ site.baseurl }}/img/i-googleplus.png" /></a></li>
               <li><a href="http://www.pinterest.com/pin/create/button/?url={{page.url}}" onclick="openPopup(this.href)"><img src="{{ site.baseurl }}/img/i-pinterest.png" /></a></li>
               <!-- <li><a href=""><img src="{{ site.baseurl }}/img/i-email.png" /></a></li> -->
             </ul>
@@ -26,7 +26,7 @@
       
       <div class="block mb">
         <h3 class="hd-3">Subscribe to our newsletter</h3>
-        <form action="http://formspree.io/martha@spiral-digital.com" method="POST">
+        <form action="http://www.spiral.media/sendmail_newsletter/" method="POST">
           <div class="input-group">
             <input type="email" required class="form-control" placeholder="email" name="newsletter_email">
             <span class="input-group-btn"><button class="btn btn-action">go</button></span>
