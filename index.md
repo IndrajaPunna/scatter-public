@@ -7,7 +7,7 @@ permalink: /
 <!-- hero -->
 <div id="hero" class="hero hero__homepage">
   <div class="hero-a">
-    <div class="header">
+    <div class="header header-trans">
       <div class="container">
         <div class="row">
           {% include links.html param="dark" %}
