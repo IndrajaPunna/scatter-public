@@ -2,13 +2,16 @@
 layout: page
 permalink: /
 ---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
 
 <!-- hero -->
 <div id="hero" class="hero hero__homepage">
   <div class="hero-a">
     <div class="container">
-      <div class="row header-trans hidden-xs">
-        {% include links.html param="light" %}
+      <div class="header-wrapper">
+        <div class="row header-trans hidden-xs">
+          {% include links.html param="light" %}
+        </div>
       </div>
       <div class="hero-content tac">
         <h1 class="hd-1 mt">Awesome content.</h1>
@@ -30,10 +33,8 @@ permalink: /
 </div>
 <!-- /hero -->
 
-{% include nav.html %}
-
 <!-- intro -->
-<div id="intro" class="section scatter">
+<div class="section scatter">
   <div class="container tac">
     <div class="row mt">
       <div class="col-xs-4 arrow-r">
@@ -42,8 +43,8 @@ permalink: /
           <img src="{{ site.baseurl }}/img/i-discover.png" alt="">
           <p class="hidden-xs">Our intelligent search adapts to your needs and learns from you, giving you recommended and custom results. Never miss a trend again.</p>
           <span class="hidden-xs screenshot">
-            <a href="#"><img src="{{ site.baseurl }}/img/i-discover-1.jpg" alt=""></a>
-            <a href="#" class="ml"><img src="{{ site.baseurl }}/img/i-discover-2.jpg" alt=""></a></span>
+            <a href="{{ site.baseurl }}/img/discover-1.jpg" data-lightbox="discover-1"><img src="{{ site.baseurl }}/img/i-discover-1.jpg" alt=""></a>
+            <a href="{{ site.baseurl }}/img/discover-2.jpg" data-lightbox="discover-2" class="ml"><img src="{{ site.baseurl }}/img/i-discover-2.jpg" alt=""></a></span>
         </div>
       </div>
       <div class="col-xs-4 arrow-r">
@@ -52,8 +53,8 @@ permalink: /
           <img src="{{ site.baseurl }}/img/i-distribute.png" alt="">
           <p class="hidden-xs">Use our editorial calendar for easy planning of your content marketing activities. Wrap the content you like with the ads that you want, and let it travel.</p>
           <span class="hidden-xs screenshot">
-            <a href="#"><img src="{{ site.baseurl }}/img/i-distribute-1.jpg" alt=""></a>
-            <a href="#" class="ml"><img src="{{ site.baseurl }}/img/i-distribute-2.jpg" alt=""></a></span>
+            <a href="{{ site.baseurl }}/img/distribute-1.jpg" data-lightbox="distribute-1"><img src="{{ site.baseurl }}/img/i-distribute-1.jpg" alt=""></a>
+            <a href="{{ site.baseurl }}/img/distribute-2.jpg" data-lightbox="distribute-2" class="ml"><img src="{{ site.baseurl }}/img/i-distribute-2.jpg" alt=""></a></span>
         </div>
       </div>
       <div class="col-xs-4">
@@ -62,8 +63,8 @@ permalink: /
           <img src="{{ site.baseurl }}/img/i-delight.png" alt="">
           <p class="hidden-xs">Our advanced analytics allow you to monitor engagement rates on your selected content. Get everything you need straight from our Scatter dasboard.</p>
           <span class="hidden-xs screenshot">
-            <a href="#"><img src="{{ site.baseurl }}/img/i-delight-1.jpg" alt=""></a>
-            <a href="#" class="ml"><img src="{{ site.baseurl }}/img/i-delight-2.jpg" alt=""></a></span>
+            <a href="{{ site.baseurl }}/img/delight-1.jpg" data-lightbox="delight-1"><img src="{{ site.baseurl }}/img/i-delight-1.jpg" alt=""></a>
+            <a href="{{ site.baseurl }}/img/delight-2.jpg" data-lightbox="delight-2" class="ml"><img src="{{ site.baseurl }}/img/i-delight-2.jpg" alt=""></a></span>
         </div>
       </div>
     </div>
