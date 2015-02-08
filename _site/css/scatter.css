@@ -531,6 +531,19 @@ img {
   text-transform: uppercase;
 }
 
+.publishers-slide {
+  position: relative;
+}
+#pub-prev,
+#pub-next {
+  position: absolute;
+  top: 50%;
+  margin-top: -18px;
+  cursor: pointer;
+}
+#pub-prev { left: -48px;}
+#pub-next { right: -48px;}
+
 @media (min-width: 992px) {
   body {
     zoom: 1;
