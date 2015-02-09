@@ -48,6 +48,10 @@ $(document).ready(function() {
     $('.customer').removeClass('active');
     $(this).addClass('active');
   });
+
+  // lazy loading images
+  $(".network-logo").unveil(100);
+
 });
 
 // thanks page
