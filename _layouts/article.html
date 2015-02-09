@@ -31,7 +31,7 @@
             <input type="email" required class="form-control" placeholder="email" name="newsletter_email">
             <span class="input-group-btn"><button class="btn btn-action">go</button></span>
           </div>
-          <input type="hidden" name="redirect_url" value="{{ page.url }}">
+          <input type="hidden" name="redirect_url" value="{{  site.baseurl }}{{ page.url }}">
         </form>
       </div>
       
