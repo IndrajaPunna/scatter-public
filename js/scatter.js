@@ -21,6 +21,7 @@ $(document).ready(function() {
         scrollTop: target.offset().top - 80
       }, 1000);
     }
+    $('.collapse').collapse('hide');
   });
   
   // newscred style transition
