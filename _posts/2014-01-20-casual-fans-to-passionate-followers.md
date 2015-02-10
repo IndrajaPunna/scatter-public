@@ -7,11 +7,11 @@ published: true
 
 # Casual fans to passionate followers
 
-It is very difficult to acquire a fan, even more difficult to convert that fan into a follower but it is most difficult to keep a follower interested in your brand over a long period of time. Where most traditional marketing mediums have faltered, content marketing emerges triumphant. Using the right content marketing initiatives it is easier to hold the interest levels of your followers in your brand over a long period of time. 
+It is very difficult to acquire a fan, even more difficult to convert that fan into a follower; but it is most difficult to keep a follower interested in your brand over a long period of time. Where most traditional marketing mediums have faltered, content marketing emerges triumphant. Using the right content marketing initiatives, it is easier to hold the interest levels of your followers in your brand over long periods of time. 
 
 ### The power of people
 
-As a brand, your biggest strength is your loyalists, the people who support and endorse you. They stand by you and swear by you. They are the ones who encourage and empower you. It is therefore very essential to keep strengthening the bond between your patrons and your brand while at the same time acquiring and retaining new ones along the way.
+As a brand, your biggest strength is your loyalists, the people who support and endorse you. They stand by you and swear by you. They are the ones who encourage and empower you. It is therefore essential to keep strengthening the bond between your patrons and your brand while at the same time acquiring and retaining new ones along the way.
 
 You think this is easier said than done? We simplify things for you.
 
