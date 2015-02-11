@@ -1,6 +1,7 @@
 $(document).ready(function() {
-  $('.hero-b').height($(window).height()-$('.hero-a').height() - 10); // hero height
-  // $('#intro').height($(window).height() - 80); // intro height
+  if(is.desktop()) {
+    $('.hero-b').height($(window).height()-$('.hero-a').height() - 10); // hero height
+  }
   
   $(".header").pin(); // sticky nav
   $(".share-icons").pin({
@@ -20,6 +21,7 @@ $(document).ready(function() {
         scrollTop: target.offset().top - 80
       }, 1000);
     }
+    $('.collapse').collapse('hide');
   });
   
   // newscred style transition
@@ -50,7 +52,7 @@ $(document).ready(function() {
   });
 
   // lazy loading images
-  $(".network-logo").unveil(100);
+  $(".network-logo").unveil(200);
 
 });
 
