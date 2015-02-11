@@ -1,7 +1,7 @@
-﻿---
+---
 layout: article
 title: Putting user at the center of your content strategy
-image: "putting-user-at-the-center-of-your-content-strategy.jpg"
+image: putting-user-at-the-center-of-your-content-strategy.jpg
 published: true
 ---
 
