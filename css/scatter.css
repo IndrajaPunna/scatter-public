@@ -497,7 +497,6 @@ img {
   background: url('../img/sprite-customers.png') no-repeat;
   margin: 0 10px;
   border: 4px solid transparent;
-  border-radius: 100%;
 }
 .customer.active {
   border: 4px solid #ff0;
