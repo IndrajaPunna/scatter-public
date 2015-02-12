@@ -492,27 +492,27 @@ img {
 .customer {
   cursor: pointer;
   display: inline-block;
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
   background: url('../img/sprite-customers.png') no-repeat;
   margin: 0 10px;
-  border: 3px solid transparent;
+  border: 4px solid transparent;
   border-radius: 100%;
 }
 .customer.active {
-  border: 3px solid #ff0;
+  border: 4px solid #ff0;
 }
 .customer-coca-cola {
-  background-position: 6px 6px;
+  background-position: 8px 8px;
 }
 .customer-starbucks {
-  background-position: -110px 6px;
+  background-position: -147px 8px;
 }
 .customer-nikon {
-  background-position: -226px 6px;
+  background-position: -301px 8px;
 }
 .customer-dabur {
-  background-position: -342px 6px;
+  background-position: -456px 8px;
 }
 
 #thanks {
