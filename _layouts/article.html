@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="col-md-4 tac">
-      
+
       <div class="block mb">
         <h3 class="hd-3">Subscribe to our newsletter</h3>
         <form action="http://www.spiral.media/sendmail_newsletter/" method="POST">
@@ -31,10 +31,10 @@
             <input type="email" required class="form-control" placeholder="email" name="newsletter_email">
             <span class="input-group-btn"><button class="btn btn-action">go</button></span>
           </div>
-          <input type="hidden" name="redirect_url" value="{{  site.baseurl }}{{ page.url }}#thanks">
+          <input type="hidden" name="redirect_url" value="{{ site.production_url }}{{ page.url }}#thanks">
         </form>
       </div>
-      
+
       <div class="block">
         <h3 class="hd-3">related articles</h3>
         {% for post in site.related_posts limit:5%}
