@@ -1,4 +1,4 @@
 permalink: /knowledge/:title
-baseurl : http://scatter.solutions
-production_url : http://scatter.solutions
+# baseurl : http://scatter.solutions
+# production_url : http://scatter.solutions
 BASE_PATH : http://scatter.solutions
