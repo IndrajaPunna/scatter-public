@@ -135,4 +135,10 @@ permalink: /advertisers/
   </div>
 </div>
 
-{% include testimonials.html %}
+<div class="section scatter">
+  <div class="container tac">
+    <h2 class="hd-2">Our Advertiser network</h2>
+    <p class="brief-text">Scatter is every advertiser's greatest opportunity to have relevant, targeted and engaging conversation with users.</p>
+    {% include advertisers_network.html %}
+  </div>
+</div>
