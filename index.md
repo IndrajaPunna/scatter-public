@@ -119,6 +119,8 @@ permalink: /
   </div>
 </div>
 
+{% include testimonials.html %}
+
 <div class="section section-gray tac">
   <h2 class="hd-2">knowledge</h2>
   <p class="mb">The Who, What, Why & How of Content Marketing. Stay Informed.</p>

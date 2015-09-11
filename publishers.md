@@ -91,8 +91,6 @@ permalink: /publishers/
   </div>
 </div>
 
-{% include testimonials.html %}
-
 <div class="section scatter">
   <div class="container tac">
     <h2 class="hd-2">Our Publisher network</h2>
