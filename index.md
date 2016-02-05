@@ -16,12 +16,12 @@ permalink: /
     </div>
     <div class="container">
       <div class="hero-content tac">
-        <h1 class="hd-1 mt">Awesome content.</h1>
+        <h1 class="hd-1 mt">Awesome content</h1>
       </div>
     </div>
   </div>
   <div class="hero-b tac">
-    <h2 class="hd-1">No more awful conversations.</h2>
+    <h2 class="hd-1">No more awful conversations</h2>
     <div class="breathe">
       <img src="{{ site.baseurl }}/img/hero-scatter-logo.png" alt="">
     </div>
