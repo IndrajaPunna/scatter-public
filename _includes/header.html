@@ -10,5 +10,10 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/fonts/stylesheet.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/scatter.css">
+  {% for post in site.posts %}
+    {% if post.title == "Power Talk With Joe Pulizzi And All Things Content Marketing" %}
+        <meta name="keywords" content='{{ post.keywords }}'>
+    {% endif %}
+  {% endfor %}
 </head>
 <body>
