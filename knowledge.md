@@ -14,12 +14,12 @@ permalink: /knowledge/
     </div>
     <div class="container">
       <div class="hero-content tac">
-        <h1 class="hd-1 mt">stay hungry but not foolish.</h1>
+        <h1 class="hd-1 mt">stay hungry but not foolish</h1>
       </div>
     </div>
   </div>
   <div class="hero-b tac">
-    <h2 class="hd-1">study our digital marketing trends.</h2>
+    <h2 class="hd-1">study our digital marketing trends</h2>
     <div class="breathe">
       <img src="{{ site.baseurl }}/img/hero-scatter-logo.png" alt="">
     </div>
