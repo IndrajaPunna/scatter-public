@@ -126,7 +126,7 @@ permalink: /
   <p class="mb">The Who, What, Why & How of Content Marketing. Stay Informed.</p>
   <div class="container">
     <div class="row mb">
-      {% for post in site.tags.feature%}
+      {% for post in site.posts limit:3 %}
       <div class="col-md-4 mb">
         <a href="{{ site.baseurl }}{{ post.url }}">
           <div class="article article-sm tac" style="background-image:url('{{ site.baseurl }}/img/articles/{{post.image}}')">
