@@ -31,7 +31,7 @@ It's essential that you put the user at the centre of your content strategy. The
 
 - Humanize your brand by speaking about things that interest your audience. Give them a feeling of person-to-person communication as against product-to-person communication.
 
-### Spiral to the rescue!
+### Spiral to the rescue!!
 
 At Spiral, we love solving such content marketing problems and bring to you Scatter. A marketer can use Scatter to pick and choose the "best-of-breed" content to share with your users, driving up engagement levels. Scatter offers you full control over content, ad spots, users and analytics.
 
