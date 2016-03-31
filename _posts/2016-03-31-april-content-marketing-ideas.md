@@ -5,7 +5,7 @@ image: april-content-marketing-ideas.jpg
 published: true
 ---
 
-# APRIL CONTENT MARKETING IDEAS
+<h1 style="text-align:left">APRIL CONTENT MARKETING IDEAS</h1>
 
 This April, there's so much more for your brands to say. Check out the PDF version of our content marketing calendar <a target="_blank" href="http://bit.ly/DownloadAprCal" class="btn btn-action">here</a> 
 or view it below:
