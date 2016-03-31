@@ -34,6 +34,7 @@ permalink: /knowledge/
   <div class="container">
     <div class="row">
       {% for post in site.posts %}
+      {{ post.url }}
       <div class="col-md-{% cycle '6','6','4','4','4' %} mb">
         <a href="{{ site.baseurl }}{{ post.url }}">
           <div class="article {% cycle '','','article-sm','article-sm','article-sm'%} tac" style="background-image:url('{{ site.baseurl }}/img/articles/{{post.image}}')">
