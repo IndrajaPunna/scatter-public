@@ -7,7 +7,7 @@ published: true
 
 <h1 style="text-align:left">MAY CONTENT MARKETING IDEAS</h1>
 
-Check out our content marketing calendar: <a target="_blank" href="http://bit.ly/DownloadMayCal" class="btn btn-action">here</a>
+Check out the PDF version of our content marketing calendar <a target="_blank" href="http://bit.ly/DownloadMayCal" class="btn btn-action">here</a>
 or view it below:
 
 <div>
