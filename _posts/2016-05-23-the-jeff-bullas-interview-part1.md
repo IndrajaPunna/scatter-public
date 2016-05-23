@@ -6,7 +6,7 @@ published: true
 keywords: "content marketing, marketing, advertising, branding, Jeff Bullas, newsletters, social media, CMO, branded content, native advertising, blogs"
 ---
 
-##**The Jeff Bullas Interview - Part One**
+##The Jeff Bullas Interview - Part One
 
 *After we ran the Joe Pulizzi interview, we quickly wrote to Jeff and asked if we could pick his brains, first hand, on the digital and social marketing space. We wanted a "Power Talk" with Jeff Bullas! He was kind enough to offer us an entire hour on a Skype call. Jeff dwelt a lot on content marketing and offered a 360 degree view referencing individuals as well as organizations of various sizes at several times in the interview. This again is a really long interview and we thought it would make more sense to break this interview into 2 parts. While we will publish the 2nd part next week, here is the Part 1 and we hope you enjoy the read.*
 
