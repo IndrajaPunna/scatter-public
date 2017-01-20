@@ -47,6 +47,9 @@
                 <div class="col-xs-6"><input class="form-control" type="text" required name="job_function" placeholder="Job Function"></div>
               </div>
               <textarea name="message" rows="5" class="form-control mb" placeholder="Message"></textarea>
+              <div class="row mb">
+                <div class="col-md-6"><div class="g-recaptcha" data-sitekey="6LdRihIUAAAAAAZNyiyYB2RlJBYXG7P43fTOuyMH"></div></div>
+              </div>
               <div class="row">
                 <div class="col-md-6 col-md-offset-6"><input type="submit" class="btn btn-tertiary btn-block" value="Say hello"></div>
               </div>
@@ -78,6 +81,7 @@
   <script src="{{ site.baseurl }}/js/is.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/unveil/1.3.0/jquery.unveil.min.js"></script>
   <script src="{{ site.baseurl }}/js/scatter.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
   {% include ga.html %}
 </body>
 </html>
