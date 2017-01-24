@@ -33,7 +33,7 @@
         <div id="contact" class="col-md-6 col-md-pull-6">
           <div class="form">
             <h2 class="hd-2">Contact us</h2>
-            <form action="http://www.spiral.media/sendmail/" method="POST">
+            <form action="http://www.spiral.media/sendmail/" method="POST" name="sendemail" id="sendemail">
               <div class="row mb">
                 <div class="col-xs-6"><input class="form-control" type="text" required name="first_name" placeholder="First Name"></div>
                 <div class="col-xs-6"><input class="form-control" type="text" required name="last_name" placeholder="Last Name"></div>
@@ -48,7 +48,9 @@
               </div>
               <textarea name="message" rows="5" class="form-control mb" placeholder="Message"></textarea>
               <div class="row mb">
-                <div class="col-md-6"><div class="g-recaptcha" data-sitekey="6LdRihIUAAAAAAZNyiyYB2RlJBYXG7P43fTOuyMH"></div></div>
+                <div class="col-md-12">
+                  <div id="grecaptcha"></div>
+                </div>
               </div>
               <div class="row">
                 <div class="col-md-6 col-md-offset-6"><input type="submit" class="btn btn-tertiary btn-block" value="Say hello"></div>
@@ -81,7 +83,28 @@
   <script src="{{ site.baseurl }}/js/is.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/unveil/1.3.0/jquery.unveil.min.js"></script>
   <script src="{{ site.baseurl }}/js/scatter.js"></script>
-  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <script src='https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit'></script>
+  <script>
+    var allowSubmit = false;
+    $(document).ready(function() {
+        $('#grecaptcha').addClass('required-captcha-entry');
+    });
+    var onloadCallback = function() {
+      grecaptcha.render('grecaptcha', {
+          'sitekey' : '6LdRihIUAAAAAAZNyiyYB2RlJBYXG7P43fTOuyMH',
+          'callback': capcha_filled,
+      });
+    };
+    function capcha_filled () {
+        allowSubmit = true;
+    }
+    $('#sendemail').on('submit', function(e) {
+        if(allowSubmit) return true;
+        e.preventDefault();
+        $('.alert_mesg').empty();
+        $('#grecaptcha').append('<p class="alert_mesg">We want humans to contact us. Check the checkbox if you are one</p>');
+    });
+  </script>
   {% include ga.html %}
 </body>
 </html>
