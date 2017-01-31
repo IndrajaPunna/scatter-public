@@ -12,7 +12,7 @@ published: true
     </div>
     <div>
         <span>
-            <p>By now, your users have forgotten most of their new year’s resolutions, the buzz has died down, and routine life is picking pace.</p>
+            <p>By now, your users have forgotten most of their new year’s resolutions, the buzz has died down, and routine life is picking pace. </p>
             <p>That being said, the shortest month of the year comes with a long list of content marketing ideas to prompt good interaction with your readers and strengthen your digital foothold.</p>
             <p>So let’s dive right in and start planning to wow your users with superior content throughout the month.</p>
             <p>We’ve rounded up <b style="color: #FF4500">12 content pegs to build around this February.</b></p>
@@ -33,7 +33,6 @@ published: true
             <img src="/img/listicle_images/international_women.jpg" width="600px;">
             <p>Brand participation in the already-buzzing conversation on the topic online is a good show of their attempt to promote gender parity in the field of science</p>
             <p>The number one question that cross your readers’ mind in this context is <b>‘just why are there such  few women in the field of science?’</b> Pushing content around <b>debunking myths like women don’t have an aptitude for science, they’d have to take a sabbatical to raise children</b>, etc. will generate good online traction.</p>
-            <p>The number of women in the field of science is glaringly low in comparison to their male counterparts. Brands can highlight the issue and promote their individual CSR initiatives by pledging to support underprivileged girl children with an interest in science as well as inviting readers to follow suit.</p>
             <p>Some content ideas: <b>‘Ways to encourage your daughter to develop interest in science at a young age’, ‘5 scientific discoveries by women’ ‘Where are the IIT women graduates of the 90s’</b>, etc.</p>
         </div>
         <div>
