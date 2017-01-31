@@ -1,13 +1,13 @@
 ---
 layout: article
-title: 12 CONTENT PEGS TO BUILD AROUND THIS FEBRUARY!
+title: 13 CONTENT PEGS TO BUILD AROUND THIS FEBRUARY!
 image: february-content-marketing-ideas.jpg
 published: true
 ---
 
 <div>
     <div>
-        <h1 style="text-align: center">12 content pegs to build around this February !</h1>
+        <h1 style="text-align: center">13 content pegs to build around this February !</h1>
         <img src="/img/articles/february-content-marketing-ideas.jpg" alt="Image" width="600px;" />
     </div>
     <div>
@@ -15,7 +15,7 @@ published: true
             <p>By now, your users have forgotten most of their new year’s resolutions, the buzz has died down, and routine life is picking pace. </p>
             <p>That being said, the shortest month of the year comes with a long list of content marketing ideas to prompt good interaction with your readers and strengthen your digital foothold.</p>
             <p>So let’s dive right in and start planning to wow your users with superior content throughout the month.</p>
-            <p>We’ve rounded up <b style="color: #FF4500">12 content pegs to build around this February.</b></p>
+            <p>We’ve rounded up <b style="color: #FF4500">13 content pegs to build around this February.</b></p>
         </span>
         <div>
             <h2><b style="color:#003366">1. World Cancer Day 4th February: </b></h2>
