@@ -51,7 +51,7 @@ published: true
         <div class="col-md-12 tac">
             <div class="block mb">
                 <h3 class="hd-3">Subscribe here to receive the full list on email</h3>
-                <form action="http://spiral.media/sendmail_subscription/" method="POST">
+                <form action="http://www.spiral.media/sendmail_subscription/" method="POST">
                     <div class="input-group">
                         <input type="email" required class="form-control" placeholder="email" name="newsletter_email">
                         <span class="input-group-btn"><button class="btn btn-action">go</button></span>
