@@ -25,7 +25,7 @@ $(document).ready(function() {
   });
   
   // newscred style transition
-  var el = $('.header-trans');
+  var el = $('.header');
   var logo = el.find('.logo img');
   var logoSRC = logo.attr('src');
   if(is.desktop()) {
@@ -68,4 +68,9 @@ var openPopup = function(href){
   var top = (screen.height/2)-(420/2);
   var windowOptions = 'scrollbars=yes,resizable=yes,toolbar=no,location=yes,centerscreen,width=550,height=420,top='+top+', left='+left;
   window.open(href,'Share', windowOptions);
+}
+function showModal() {
+    $('#subscribe_modal').modal({
+        show: true,
+    });
 }
