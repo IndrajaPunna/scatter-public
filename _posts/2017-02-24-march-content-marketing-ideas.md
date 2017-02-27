@@ -5,7 +5,7 @@ image: march-content-marketing-ideas.jpg
 published: true
 ---
 
-<div>
+<div style="text-align: justify">
     <div>
         <h1 style="text-align: center">March Content Marketing Ideas !</h1>
         <img src="/img/articles/march-content-marketing-ideas.jpg" alt="Image" width="600px;" />
