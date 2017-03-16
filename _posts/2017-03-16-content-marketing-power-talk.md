@@ -22,7 +22,7 @@ published: true
                     <div class="col-sm-6"><input type="email" required class="form-control" placeholder="Enter your email" name="newsletter_email"></div>
                     <div class="col-sm-6"><button class="btn btn-action">MAIL ME THE EBOOK</button></div>
                 </div>
-                <input type="hidden" name="file_name" value="ContentMarketingPowerTalk.pdf">
+                <input type="hidden" name="url" value="{{ site.production_url }}/files/ContentMarketingPowerTalk.pdf">
                 <input type="hidden" name="title" value="Content Marketing Power Talk">
                 <input type="hidden" name="redirect_url" value="{{ site.production_url }}{{ page.url }}#thanks">
             </form>
