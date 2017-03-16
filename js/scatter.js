@@ -70,7 +70,5 @@ var openPopup = function(href){
   window.open(href,'Share', windowOptions);
 }
 function showModal() {
-    $('#subscribe_modal').modal({
-        show: true,
-    });
+    $('#subscribe_modal').show(1);
 }
