@@ -12,7 +12,7 @@ published: true
     </div>
     <div>
         <span>
-            <p>2016 was a great year for us at Scatter. Besides learning a lot from the brands Scatter worked with, we were privileged to speak "one on one" to 4 of the top 10 content marketing influencers.Some interviews were long (loaded with insightful details) and went beyond just content marketing.
+            <p>2016 was a great year for us at Scatter. Besides learning a lot from the brands Scatter worked with, we were privileged to speak "one on one" to 4 of the top 10 content marketing influencers.Some interviews were long (loaded with insightful details) and went beyond just content marketing.</p>
             <p>For instance, we asked Joe on his penchant for the color orange. Not really a content marketing question, you will agree. We did, however, realize that a lot of the content was still relevant - if not more relevant than before. And, therefore, thought of curating these interviews to publish our first content marketing eBook.</p>
             <p>We hope you like reading this eBook as much as we liked putting it together.</p>
         </span>
