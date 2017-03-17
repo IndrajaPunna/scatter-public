@@ -5,44 +5,43 @@ image: content-marketing-power-talk.jpg
 published: true
 ---
 
-<div style="text-align: justify">
+<div style="text-align: justify; width: 650px;">
     <div>
-        <h1 style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;">CONTENT MARKETING POWER TALK !!</h1>
-        <img src="/img/articles/march-content-marketing-ideas.jpg" alt="Image" width="800px;" height="200px" />
+        <br>
+        <img src="/img/articles/content-marketing-power-talk.jpg" alt="Image" width="800px;" height="250px" />
     </div>
     <br>
     <div>
         <div class="row">
             <div class="col-sm-3" style="margin-left: -10px;text-align: center">
-                 <img src="{{ site.production_url }}/img/articles/power-talk-with-joe-pulizzi.jpg" width="100px" height="100px">
+                 <img src="{{ site.production_url }}/img/articles/power-talk-with-joe-pulizzi.jpg" width="100px" height="100px" style="margin-top: 20px">
             </div>
             <div class="col-sm-3" style="margin-left: -10px;text-align: center">
                 <p style="font-size: 14px; font-family: 'Arial Black', Gadget, sans-serif; color: #DC143C; margin-bottom: -15px;">Joe Pulizzi</p>
-                <p style="font-size: 11px; margin-bottom: -15px; font-family: 'Trebuchet MS', Helvetica, sans-serif"><b style="color: #239FBB;">Founder, Content Marketing Institute</b></p>
+                <p style="font-size: 11px; margin-bottom: -15px; color: #239FBB;">Founder, Content Marketing Institute</p>
             </div>
             <div class="col-sm-3" style="margin-left: -10px;text-align: center">
-                <img src="{{ site.production_url }}/img/articles/the-jeff-bullas-interview-part-1.jpg" width="100px" height="100px">
+                <img src="{{ site.production_url }}/img/articles/the-jeff-bullas-interview-part-1.jpg" width="100px" height="100px" style="margin-top: 20px">
             </div>
             <div class="col-sm-3" style="margin-left: -10px;text-align: center">
                 <p style="font-size: 14px; font-family: 'Arial Black', Gadget, sans-serif; color: #DC143C; margin-bottom: -15px;">Jeff Bullas</p>
-                <p style="font-size: 11px; margin-bottom: -15px; font-family: 'Trebuchet MS', Helvetica, sans-serif"><b style="color: #239FBB;">Entrepreneur, Blogger, Author, Marketer and Speaker</b></p>
+                <p style="font-size: 11px; margin-bottom: -15px; color: #239FBB;">Entrepreneur, Blogger, Author, Marketer and Speaker</p>
             </div>
         </div>
-        <br>
         <div class="row">
             <div class="col-sm-3" style="margin-left: -10px;text-align: center">
-                <img src="{{ site.production_url }}/img/articles/the-guy-kawasaki-interview.jpg" width="100px" height="100px">
+                <img src="{{ site.production_url }}/img/articles/the-guy-kawasaki-interview.jpg" width="100px" height="100px" style="margin-top: 20px">
             </div>
             <div class="col-sm-3" style="margin-left: -10px;text-align: center">
                 <p style="font-size: 14px; font-family: 'Arial Black', Gadget, sans-serif; color: #DC143C; margin-bottom: -15px;">Guy Kawasaki</p>
-                <p style="font-size: 11px; margin-bottom: -15px; font-family: 'Trebuchet MS', Helvetica, sans-serif"><b style="color: #239FBB;">Author, Speaker, Evangelist and Marketer</b></p>
+                <p style="font-size: 11px; margin-bottom: -15px; color: #239FBB;">Author, Speaker, Evangelist and Marketer</p>
             </div>
             <div class="col-sm-3" style="margin-left: -10px;text-align: center">
-                <img src="{{ site.production_url }}/img/articles/the-mark-w-schaefer-interview.jpg" width="100px" height="100px">
+                <img src="{{ site.production_url }}/img/articles/the-mark-w-schaefer-interview.jpg" width="100px" height="100px" style="margin-top: 20px">
             </div>
             <div class="col-sm-3" style="margin-left: -10px;text-align: center">
                 <p style="font-size: 14px; font-family: 'Arial Black', Gadget, sans-serif; color: #DC143C; margin-bottom: -15px;">Mark Schaefer</p>
-                <p style="font-size: 11px; margin-bottom: -15px; font-family: 'Trebuchet MS', Helvetica, sans-serif"><b style="color: #239FBB;">Educator, Author and Marketing Consultant</b></p>
+                <p style="font-size: 11px; margin-bottom: -15px; color: #239FBB;">Educator, Author and Marketing Consultant</p>
             </div>
         </div>
         <span>
