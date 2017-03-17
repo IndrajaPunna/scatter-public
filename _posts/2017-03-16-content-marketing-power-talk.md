@@ -5,7 +5,7 @@ image: content-marketing-power-talk.jpg
 published: true
 ---
 
-<div style="text-align: justify; width: 650px;">
+<div style="text-align: justify;">
     <div>
         <br>
         <img src="/img/articles/content-marketing-power-talk.jpg" alt="Image" width="800px;" height="250px" />
