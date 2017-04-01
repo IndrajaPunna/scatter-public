@@ -18,14 +18,14 @@ published: true
             </div>
             <div class="col-sm-3" style="margin-left: -10px;text-align: center">
                 <p style="font-size: 14px; font-family: 'Arial Black', Gadget, sans-serif; color: #DC143C; margin-bottom: -15px;">Joe Pulizzi</p>
-                <p style="font-size: 11px; margin-bottom: -15px; color: #239FBB;">Founder, Content Marketing Institute</p>
+                <p style="font-size: 11px; margin-bottom: -15px; color: #2376BB;">Founder, Content Marketing Institute</p>
             </div>
             <div class="col-sm-3" style="margin-left: -10px;text-align: center">
                 <img src="{{ site.production_url }}/img/articles/the-jeff-bullas-interview-part-1.jpg" width="100px" height="100px" style="margin-top: 20px">
             </div>
             <div class="col-sm-3" style="margin-left: -10px;text-align: center">
                 <p style="font-size: 14px; font-family: 'Arial Black', Gadget, sans-serif; color: #DC143C; margin-bottom: -15px;">Jeff Bullas</p>
-                <p style="font-size: 11px; margin-bottom: -15px; color: #239FBB;">Entrepreneur, Blogger, Author, Marketer and Speaker</p>
+                <p style="font-size: 11px; margin-bottom: -15px; color: #2376BB;">Entrepreneur, Blogger, Author, Marketer and Speaker</p>
             </div>
         </div>
         <div class="row">
@@ -34,14 +34,14 @@ published: true
             </div>
             <div class="col-sm-3" style="margin-left: -10px;text-align: center">
                 <p style="font-size: 14px; font-family: 'Arial Black', Gadget, sans-serif; color: #DC143C; margin-bottom: -15px;">Guy Kawasaki</p>
-                <p style="font-size: 11px; margin-bottom: -15px; color: #239FBB;">Author, Speaker, Evangelist and Marketer</p>
+                <p style="font-size: 11px; margin-bottom: -15px; color: #2376BB;">Author, Speaker, Evangelist and Marketer</p>
             </div>
             <div class="col-sm-3" style="margin-left: -10px;text-align: center">
                 <img src="{{ site.production_url }}/img/articles/the-mark-w-schaefer-interview.jpg" width="100px" height="100px" style="margin-top: 20px">
             </div>
             <div class="col-sm-3" style="margin-left: -10px;text-align: center">
                 <p style="font-size: 14px; font-family: 'Arial Black', Gadget, sans-serif; color: #DC143C; margin-bottom: -15px;">Mark Schaefer</p>
-                <p style="font-size: 11px; margin-bottom: -15px; color: #239FBB;">Educator, Author and Marketing Consultant</p>
+                <p style="font-size: 11px; margin-bottom: -15px; color: #2376BB;">Educator, Author and Marketing Consultant</p>
             </div>
         </div>
         <span>
