@@ -57,15 +57,7 @@ published: true
             <p>Additionally, emotional videos capturing sibling relationships will be highly shared. Content ideas: <b>“10 things you’ll relate to if you grew up with a sister”, “Celebrities and their lesser-known siblings”, “5 tips for parents to effectively deal with sibling rivalry”, “5 Whatsapp messages that you only send to siblings”, “What your younger brother wants you to know but will never say”</b>, etc. </p>
         </div>
         <div>
-            <h2><b style="color:#003366">6. Jallianwallah Bagh Massacre Day 13th April: </b></h2>
-            <p><b style="color: #be6837">“Remembering the martyrs”</b></p>
-            <img src="/img/listicle_images/jallian.jpg" width="600px;">
-            <p>One of the deadliest bloodbaths that changed the course of the freedom movement, the Jallianwallah Bagh tragedy evokes strong sentiments till this day. It’s a day of mourning and commemorating the martyrs.</p>
-            <p><b>Fact-based posts around what exactly transpired that day, the history behind the incident, how it affected the freedom movement, and what eminent authors like Rabindranath Tagore wrote about it</b> will make for an interesting read.</p>
-            <p>Additionally topics like <b>“Excerpts from General Dyer’s account of that incident”, “Heart-wrenching pictures of the Jallianwallah Bagh tragedy”</b> will get good engagement. </p>
-        </div>
-        <div>
-            <h2><b style="color:#003366">7. National Poetry Month: </b></h2>
+            <h2><b style="color:#003366">6. National Poetry Month: </b></h2>
             <p><b style="color: #be6837">“I read Poe once, I think I know enough about poetry”</b></p>
             <img src="/img/listicle_images/poetry.jpg" width="600px;">
             <p>At a time when allegorical poetry is fast losing its foothold to lyrics that make no sense, the world needs more poetry. </p>
@@ -74,7 +66,7 @@ published: true
             <p>Additionally, inviting users to write short couplets and slam poems on important issues can lead to good user generated content.</p>
         </div>
         <div>
-            <h2><b style="color:#003366">8. World Earth Day 22nd April: </b></h2>
+            <h2><b style="color:#003366">7. World Earth Day 22nd April: </b></h2>
             <p><b style="color: #be6837">“It’s a wonderful world!”</b></p>
             <img src="/img/listicle_images/8_earth.jpg" width="600px;">
             <p>The equinoctial Earth Day is an opportunity for brands to raise awareness, celebrate Earth, and invite actions. Talking about climate changes and it effects on our lives and vice-versa, as well as belting out tips to lessen carbon footprints will make the right noise online.</p>
@@ -82,7 +74,7 @@ published: true
             <p>Some content ideas: <b>“5 effortless ways to be more environment-friendly”, “Sensitizing children towards environmental issues”, “Going green is good for your wallet”, “5 climate issues that could be as fatal as global warming”,</b> etc. </p>
         </div>
         <div>
-            <h2><b style="color:#003366">9. World Immunization Week 24 – 30th April: </b></h2>
+            <h2><b style="color:#003366">8. World Immunization Week 24 – 30th April: </b></h2>
             <p><b style="color: #be6837">“Shots are good, vaccine shots we mean”</b></p>
             <img src="/img/listicle_images/immun.jpg" width="600px;">
             <p>The year marks the halfway mark in the Global Vaccine Action Plan and is a good time to throw light on the case of unvaccinated and under vaccinated populace worldwide. With the intent of raising awareness on the necessity of vaccines for a disease-free life, brands can talk about the diseases that immunization has lessened the incidence of and ones that immunization can prevent.</p>
@@ -90,7 +82,7 @@ published: true
             <p>Posts like <b>“How immunization promises a disease-free tomorrow”, “Countries with the best immunization rate and their current health scenario”, “5 reasons why you should consider immunizing your children”,</b> will surely grab digital eyeballs. </p>
         </div>
         <div>
-            <h2><b style="color:#003366">10. World Malaria Day 25th April: </b></h2>
+            <h2><b style="color:#003366">9. World Malaria Day 25th April: </b></h2>
             <p><b style="color: #be6837">#EndMalariaForGood</b></p>
             <img src="/img/listicle_images/malaria.jpg" width="600px;">
             <p>One child dies of malaria every two minutes. The mosquito-borne disease, common to second and third world countries, is a major cause of concern and one that warrants immediate attention.</p>
@@ -98,7 +90,7 @@ published: true
             <p>Additionally, brands can gain brownie points by distributing mosquito nets and repellants.</p>
         </div>
         <div>
-            <h2><b style="color:#003366">11. Festivals: </b></h2>
+            <h2><b style="color:#003366">10. Festivals: </b></h2>
             <p><b style="color: #be6837">“There are more festivals than states in India, this only means we get more reasons to celebrate!”</b></p>
             <img src="/img/listicle_images/11_festivals.jpg" width="600px;">
             <p><b>Mopin Festival 5th – 6th April.</b> Native to Arunachal Pradesh, the harvest festival celebrated by the Galo tribe is characterized by the worship of goddess Mopin. This is a fantastic opportunity for brands to shed light on a little-known Indian festival.</p>
@@ -109,7 +101,7 @@ published: true
             <p>All these festivals give brands an opportunity to talk about <b>individual states, encourage tourism, publish recipes and outfit ideas</b>, as well as speak about the <b>rich and diverse culture</b> India is home to.</p>
         </div>
         <div>
-            <h2><b style="color:#003366">12. Fun Days:</b></h2>
+            <h2><b style="color:#003366">11. Fun Days:</b></h2>
             <p><b style="color: #be6837">“Did someone say Beer Day?”</b></p>
             <img src="/img/listicle_images/12_fun.jpg" width="600px;">
             <p><b>National Beer Day 7th April</b> – Not only an apt day to raise digital glasses to achievers and success stories but Beer Day is an opportunity to show your brand’s fun side. Invite readers to share their beer stories and favorite food pairings as well as encourage talks on drunk driving to gain good digital traction.</p>
@@ -117,7 +109,7 @@ published: true
             <p><b>Wear your Pajamas to Work Day 16th April</b> – Those crisp pinned shirts and those uncomfortable heels can take a hike! Ask employees to wear their favorite pajamas to work on this day. Take quirky pictures and post on social media, This will go a long way in humanizing your brand and adding a fun element to it.</p>
         </div>
         <div>
-            <h2><b style="color:#003366">13. Upcoming movies: </b></h2>
+            <h2><b style="color:#003366">12. Upcoming movies: </b></h2>
             <p><b style="color: #be6837">“Will I boast about it or roast it on Facebook?”</b></p>
             <img src="/img/listicle_images/13_upcoming.jpg" width="600px;">
             <p><b>The Fate of the Furious 14th April</b>– The latest in the Fast and Furious series will see the story unfolding in New York.</p>
@@ -127,7 +119,7 @@ published: true
             <p><b>Bahubali: The Conclusion 28th April</b> – A highly anticipated film, the movie will finally answer the lingering question “Kantappa ne Bahubali ko kyu maara”</p>
         </div>
         <div>
-            <h2><b style="color:#003366">14. Sports:</b></h2>
+            <h2><b style="color:#003366">13. Sports:</b></h2>
             <p><b style="color: #be6837">“Who’s playing this April”</b></p>
             <img src="/img/listicle_images/14_sports.jpg" width="600px;">
             <p><b>IPL 10</b> will kick-off on the <b>5th of April</b> and continue till May. The annual extravaganza will have the cricket fans and the celebrity-struck populace following the event with bated breath. There’s a lot of content pegs for brands to post on, from <b>match updates, congratulatory tweets, to celebrity sighting and who wore what to a game</b>, it’s a field day for brands to do content marketing.</p>
@@ -136,7 +128,7 @@ published: true
             <p><b>Searches</b> around players, past matches and broadcast schedules surge, creating a lot of online buzz. There’s also an increase in searches around <b>fashion and lifestyle</b> since users are interested to know about celebrity sightings at matches, their fashion and fitness choices, etc.  <b>Feature content</b> like “Will these players make a comeback?” or “Why you need to spend time watching Snooker” as well as <b>live updates</b> and <b>post-match analyses</b> will be greatly appreciated by the millions of Indian sports fans.</p>
         </div>
         <div>
-            <h2><b style="color:#003366">15. Major Celebrity Birthdays </b></h2>
+            <h2><b style="color:#003366">14. Major Celebrity Birthdays </b></h2>
             <img src="/img/listicle_images/15_celebrity.jpg" width="600px;">
             <ul>
                 <li><b>Eddie Murphy, </b> 3rd April, American actor and comedian</li>
