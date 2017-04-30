@@ -77,7 +77,6 @@ published: true
         <div>
             <h2><b style="color:#003366">9. World No Tobacco Day May 31st: </b></h2>
             <p><b style="color: #be6837">“Let’s refrain from choking our lungs and the Earth with smoke.”</b></p>
-            <img src="/img/listicle_images/tobacco_day.jpg" width="600px;">
             <p>In an attempt to promote at least a day of abstinence from tobacco products, this day is perfect for brands to showcase relevant CSR activities and speak about the ‘No Smoking’ rules at their respective workplaces.</p>
             <p>With 90% of smokers having tried their first cigarette by the age of 18, brands can use this day to speak about how to deter youth from taking up this detrimental habit. Topics such “12 Ex-smokers’ tips for quitting smoking”, “Lifestyle changes that help kick the tobacco addiction”, “How to deal with someone going cold turkey”, “What to do when the cigarette craving kicks in”, etc. will generate traction in the digital space.</p>
         </div>
